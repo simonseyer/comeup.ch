@@ -21,6 +21,9 @@ body {
     margin: 0;
     background-image: radial-gradient(#888 0.5px, #fff 0.5px);
     background-size: 10px 10px;
+}
+
+p {
     line-height: 140%;
 }
 
