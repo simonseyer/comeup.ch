@@ -26,6 +26,7 @@
   "scripts": {
     "i18n": "static-i18n --locale en --locales en --locales de --output-dir dist --fileFormat yaml src",
     "copy": "copyfiles --up 1 --exclude 'src/**/*.html' --exclude 'src/locales/*' 'src/**/*' dist",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "build": "yarn run i18n && yarn run copy"
   }
 }
