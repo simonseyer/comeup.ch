@@ -21,16 +21,12 @@ body {
     margin: 0;
     background-image: radial-gradient(#888 0.5px, #fff 0.5px);
     background-size: 10px 10px;
+    margin: auto;
+    max-width: 950px;
 }
 
 p {
     line-height: 140%;
-}
-
-main {
-    margin: auto;
-    margin-bottom: 100px;
-    max-width: 1000px;
 }
 
 .section {
@@ -237,4 +233,27 @@ a:link, a:visited, .icontext {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    
+    margin-bottom: var(--margin-l);
+    padding: var(--margin-m) var(--margin-s);
+    align-items: flex-start;
+}
+
+footer a {
+    border-radius: 18px;
+    background-color: #fff;
+    padding: 15px 25px;
+    box-shadow: 1.95px 1.95px 2.6px #00000026;
+    position: relative;
+    font-size: smaller;
+}
+
+footer a:hover {
+    background-color: #eee;
+    text-decoration: none;
 }
