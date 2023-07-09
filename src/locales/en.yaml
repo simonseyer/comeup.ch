@@ -1,2 +1,240 @@
 ---
-title: ComeUp.ch Consulting
+meta:
+  lang: en
+  title: ComeUp.ch Consulting
+  description: >
+    I'm a software architect and senior iOS developer with broad experience in software engineering.Hire me as freelancer so I can support your project!
+hero:
+  picture: Beatiful picture of mountains rising behind a lake
+  h1: Software Development — Up in the Alps
+profile:
+  picture: Portrait of mine
+  h3: Software Architect & Senior iOS Dev
+  p1: >
+    I'm a passionate iOS developer with a strong focus on user experience, a collaborative sofware architect that makes software engineering scale across big teams and love to apply me experience as product owner and team lead.
+  p2: >
+    Having worked in a variety of roles, I see software projects from many angles and can help you to make them successful → <a href="#contact">Hire me as a freelancer</a>
+  p3: >
+    Away from the computer I love to do <span class="icontext"><i class="fa-solid fa-paper-plane"></i> Paragliding, <i class="fa-solid fa-person-biking"></i> Cycling, </span><a href="https://blog.comeup.ch/"><i class="fa-solid fa-person-hiking"></i> Travel</a> the world, and capturing it with my <span class="icontext"><i class="fa-solid fa-camera"></i> Camera</b>.</span> After a five month trip through South America I'm now living in the <span class="icontext"><i class="fa-solid fa-mountain"></i> Alps.</span>
+mindset:
+  h2: Mindset
+  disclaimer: >
+    I'm looking to work with companies that act <span class="icontext"><i class="fa-solid fa-thumbs-up"></i> Socially</span> responsible and have a positive impact on <span class="icontext"><i class="fa-solid fa-user"></i> People</span> and the <span class="icontext"><i class="fa-solid fa-seedling"></i> Environment.</span>
+  developer:
+    title: As iOS developer
+    p1: >
+      I am passionate about user centric design with privacy in mind.
+    p2: >
+      Code needs to be easy to understand, maintainable and well-tested. Most importantly, it needs to work for the users and the business.
+    tag1: Usability
+    tag2: Privacy
+    tag3: Offline First
+    tag4: Platform Fit
+  architect:
+    title: As software architect
+    p1: >
+      I bring people, business, product and technology together.
+    p2: >
+      In my career, I have learned how important it is to have a shared understanding of what to build, and how. Software architecture plays a key role in that.
+    tag1: Collaboration
+    tag2: Autonomy
+    tag3: Managing Complexity
+    tag4: Maintainability
+  lead:
+    title: As dev lead
+    p1: >
+      I serve my team so they are happy, enganged and productive.
+    p2: >
+      People are the biggest asset of every company and helping them grow is my motivation.
+    tag1: Servent Leader
+    tag2: Personal Growth
+    tag3: Mental Health
+skills:
+  h2: Skills
+  ios:
+    h3: iOS Development
+    tag1: Swift
+    tag2: UIKit
+    tag3: SwiftUI
+    tag4: CoreData
+    tag5: HealthKit
+    tag6: watchOS
+    tag7: XCTest
+    tag8: API Design
+    tag9: Objective C
+    tag10: Git
+    p1: >
+      With many years of experience, I have a deep knowledge of iOS development practices and frameworks. In collaboration with UX designers I've implemented a variety of UI interfaces, from stock to custom.
+    p2: >
+      I've designed and implemented countless features, many deeply integrating with the OS and backend services. I was also regularly involved in building foundational frameworks for internal use.
+  ble:
+    h3: IoT & Bluetooth
+    tag1: CoreBluetooth
+    tag2: Binary Protocols
+    tag3: Message Bus
+    tag4: Firmware Updates
+    tag5: Background Connection
+    p1: >
+      In close collaboration with embedded developers, I've designed and implemented multiple binary protocols for Bluetooth communication, transparently transmitting high frequency data via a message bus across multiple platforms (Embedded C, iOS, Android & JavaScript) and enabling transfers of large data like firmware updates.
+    p2: >
+      I've also got multiple years of experience working with the iOS CoreBlueooth stack, solving a lot of intracte problems to enable a seamless and fast experience when interacting with IoT devices.
+  architecture:
+    h3: Software Architecture
+    tag1: Modular Architecture
+    tag2: Software Platforms
+    tag3: SDK Design
+    tag4: Domain Specific Languages (DSL)
+    tag5: Domain Driven Design
+    tag6: System Architecture
+    p1: >
+      I've designed and implemented app architectures at all scales. From enabling quick iteration in a feature rich iOS App developed by a three-person StartUp team (me included) to collaboratively crafting a modular architecture from scratch that enabled more than a handfull of domain-teams working on an Android and iOS app largely in autonomony.
+    p2: >
+      As system architect, I closely worked together with embedded and backend architects and many teams to create a coherent overall architecture. This gave me many insights and allows me to have a very holistic approach to architecture.
+    p3: >
+      To improve shared understanding and drive communication protocols as well as privacy measures, I've developed domain specific languages to describe domains that became one of the most central piece of technology at Bosch eBike.
+  leadership:
+    h3: Technical Leadership
+    tag1: Coaching
+    tag2: Personal Growth
+    tag3: Project Management
+    tag4: Scrum
+    tag5: Kanban
+    tag6: Jira
+    p1: >
+      As technical product owner of a team of six, I was covering the roles as team lead, technical owner and product manager. I was responsible for setting the agenda, aligning it with other teams, overall product management and the system architecture (in my dual-role as system architect).
+    p2: >
+      Most important for me was to have a happy and productive team. For that, we did regular retrospectives and I decided to do personal one on one meetings with all team members every one or two weeks. In collaboration with the disciplinary manager I also ran the yearly goal setting meetings.
+  automation:
+    h3: CI/CD
+    tag1: Continues Integration
+    tag2: Continues Delivery
+    tag3: Jenkins
+    tag4: Fastlane
+    tag5: Compliance
+    tag6: GitHub
+    tag7: GitHub Actions
+    p1: >
+      From a simple iOS app deployment pipeline to a complex mobile testing and delivery systems including large and modular projects, complex versioning, multiple deployment levels and requirements like open source scanning, I've designed and managed a number of system as developer as well as team lead.
+    p2: >
+      This enabled teams to move fast without breaking things, provided quick feedback, enabled regular releases and ensured transparency (for efficiency as well as compliance reasons). At some point dozens of developers relied on the system for daily work.
+  privacy:
+    h3: Privacy Engineering
+    tag1: Privacy by Design
+    tag2: Data Minimisation
+    tag3: Compliance as Code
+    tag4: GDPR
+    tag5: Security
+    tag6: Authenticity
+    tag7: Asymmetric Cryptography
+    p1: >
+      Privacy needs to be by design. In my role as system architect, in constant collaboration with the legal team, I've designed systems that minimised data usage and designed sophisticated ways to make data flows transparent and controllable. This was not only to the benefit of the user but also gave us more legal confidence (e.g. GDPR compliance) and limited manual processes.
+    p2: >
+      I also designed multiple high level security mechanisms to control access and ensure authenticity, mostly utilising asymmetric cryptography, that were validated by security experts.
+projects:
+  h2: Projects
+  bosch:
+    h3: Bosch eBike Digital
+    icon: Flow app icon
+    tag1: Mobile Architect
+    tag2: System Architect
+    tag3: Product Owner
+    tag4: Modular Architecture
+    tag5: Domain Driven Design
+    tag6: Data Model
+    tag7: Binary Protocols
+    tag8: Bluetooth
+    tag9: Data Privacy
+    tag10: Security
+    tag11: Project Management
+    tag12: Team Leadership
+    p1: >
+      The Flow app is at the center of the <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> generation of Bosch eBike. eBike configuration and maintenance, component firmware updates, lock & alarm, route planning and navigation, ride screen with fitness sensors, activity tracking, 3rd party integrations and more. Well designed and available in many languages, it is very popular with its users.
+    p2: >
+      I was able to play a significant role in the development of the Bosch eBike 'smart system' generation from the very beginning. Together with the most experienced software architects at Bosch eBike, I laid the technical foundations for the interaction of the hardware and software components. I was able to use my experience in digital product development, Bluetooth, communication protocols and data models.
+    p3: >
+      At the same time, as a system architect at eBike Digital, I had the main technical responsibility for the development of the Flow App for iOS and Android. With developers from three locations, I started the project from scratch, defined the framework for the software development, made important technology  decisions collaboratively and created the architectural basis for the parallel development of the app across more than a handful of mobile development teams.
+    p4: >
+      In collaboration with the other system architects, I significantly shaped the technological and  architectural landscape of Bosch eBike. Especially in data modelling and automated data privacy processes.
+    p5: >
+      I then took over a team as technical product owner and team lead. As a mobile platform team, we created an important technical platform to enable the effective product development of the other teams. Just one year later, the team was well recognised and created some of eBike Digital's most important assets.
+    p6: >
+      In the team, I was responsible for planning the project and representing it to other teams and management. I established an effective Kanban work mode, which was also adopted by other teams. In weekly coaching sessions with the team members, I ensured their well-being and development and supported official goal-setting meetings.
+    p7: >
+      I was also involved in the application process and was on my way to officially taking on leadership responsibilities at Bosch.
+    p8: >
+      Find out more about the <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> and check out the <a href="https://apps.apple.com/ch/app/ebike-flow/id1559900907" target="_blank"><i class="fa-brands fa-app-store-ios"></i> iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.bosch.ebike.onebikeapp" target="_blank"><i class="fa-brands fa-android"></i> Android</a> app.
+  paraquip:
+    h3: Paraquip App
+    icon: Paraquip app icon
+    tag1: Solo Project
+    tag2: Swift
+    tag3: SwiftUI
+    tag4: CoreData
+    tag5: Async/Await
+    tag6: Push Notifications
+    tag7: Fastlane
+    tag8: Open Source
+    p1: >
+      Paraquip is an iOS app for paragliding pilots to manage their equipment. It tracks the check history and notifies about upcoming checks. For safety and performance, it calculates wing loading.
+    p2: >
+      I'm the designer and developer of the app. It's under active development and available on the <a href="https://apps.apple.com/gb/app/paraquip/id1566910450" target="_blank"><i class="fa-brands fa-app-store-ios"></i> AppStore</a> and open source on <a href="https://github.com/simonseyer/paraquip" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.
+  cobi:
+    h3: COBI.Bike
+    icon: COBI.Bike app icon
+    tag1: iOS Dev
+    tag2: iOS Lead
+    tag3: Swift
+    tag4: Objective-C
+    tag5: CoreData
+    tag6: UIKit
+    tag7: HealthKit
+    tag8: Watch App
+    tag9: JavaScript SDK
+    tag10: Skobbler Map
+    tag11: CoreBluetooth
+    tag12: MVVM
+    tag13: Service Architecture
+    tag14: Code Generation
+    tag15: Jenkins
+    tag16: Fastlane
+    p1: >
+      COBI.Bike is turning every bike into a connected one. The Bluetooth enabled bike accessory sits on the  handlebar, charges the phone, allows to control the app via thumb controller and interconnects with the eBike system (if available).
+    p2: >
+      The heart of COBI are the mobile apps. Riding dashboard, navigation, fitness tracking (including data from BLE sensors & Apple Watch), HealthKit, Strava & Komoot integration, music and call controls, and much more.
+    p3: >
+      I've joined the COBI Start Up as student intern and later took over as development iOS lead and architect. I worked on basically all parts of the app, from the highly custom and lovely animated user interface, over mapping and navigation, the many iOS and 3rd party integrations to the extensive Bluetooth communication.
+    p4: >
+      Find out more on the <a href="https://www.bosch-ebike.com/us/products/cobibike-app" target="_blank">product page</a> and the <a href="https://apps.apple.com/de/app/cobi-bike/id1080933863" target="_blank"><i class="fa-brands fa-app-store-ios"></i> AppStore</a>.
+contact:
+  h2: Contact Me
+footer:
+  legal: Impressum — Legal Notice
+legal:
+  meta:
+    title: ComeUp.ch Impresssum
+    description: Impressum — Legal Notice of ComeUp.ch
+  back: ← back
+  h1: Impressum — Legal Notice
+  p1: >
+    <b>Simon Seyer</b><br />
+    Hubelstrasse 6<br />
+    3778 Schönried<br />
+    Switzerland<br />
+  p3: >
+    <b>Simon Seyer ComeUp.ch</b><br />
+    Sole Proprietorship<br />
+    <i>Registration in the commercial register pending</i>
+  dispute:
+    h2: Online Dispute Resolution
+    p1: >
+      In order for consumers and traders to resolve a dispute out-of-court, the European Commission developed the Online Dispute Resolution Website: <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a>.
+  disclaimer:
+    h2: Legal Disclaimer
+    p1: >
+      The contents of these pages were prepared with utmost care. Nonetheless, we cannot assume liability for the timeless accuracy and completeness of the information.
+    p2: >
+      Our website contains links to external websites. As the contents of these third-party websites are beyond our control, we cannot accept liability for them. Responsibility for the contents of the linked pages is always held by the provider or operator of the pages.
+  privacy:
+    h2: Data protection
+    p1: >
+      In general, when visiting the website of <i>Simon Seyer ComeUp.ch</i>, no personal data are saved. However, these data can be given on a voluntary basis. No data will be passed on to third parties without your consent. We point out that in regard to unsecured data transmission in the internet (e.g. via email), security cannot be guaranteed. Such data could possibIy be accessed by third parties.

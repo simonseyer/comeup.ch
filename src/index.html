@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html data-attr-t lang-t="meta.lang">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title data-t="ComeUp.ch Consulting"></title>
-  <meta name="description"
-    content="I'm a software architect and senior iOS developer with broad experience in software engineering.Hire me as freelancer so I can support your project!" />
+  <title data-t="meta.title"></title>
+  <meta name="description" data-attr-t content-t="meta.description" />
   <meta name="author" content="Simon Seyer" />
-  <meta name="title" content="ComeUp.ch Consulting" />
+  <meta name="title" data-attr-t content-t="meta.title" />
 
-  <meta property="og:title" content="ComeUp.ch Consulting" />
+  <meta property="og:title" data-attr-t content-t="meta.title" />
   <meta property="og:type" content="website" />
   <meta property="profile:first_name" content="Simon" />
   <meta property="profile:last_name" content="Seyer" />
   <meta property="og:url" content="https://comeup.ch" />
-  <meta property="og:description"
-    content="I'm a software architect and senior iOS developer with broad experience in software engineering.Hire me as freelancer so I can support your project!" />
+  <meta property="og:description" data-attr-t content-t="meta.description" />
   <meta property="og:image:url" content="/images/portrait.webp" />
-  <meta property="og:image:alt" content="Portrait of mine" />
+  <meta property="og:image:alt" data-attr-t content-t="profile.picture" />
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -41,10 +39,10 @@
       <picture>
         <source srcset="/images/mountains.avif" type="image/avif" />
         <source srcset="/images/mountains.webp" type="image/webp" />
-        <img src="/images/mountains.jpeg" alt="Beatiful picture of mountains rising behind a lake" />
+        <img src="/images/mountains.jpeg" data-attr-t alt-t="hero.picture" />
       </picture>
       <div class="content">
-        <h1>Software Development — Up in the Alps</h1>
+        <h1 data-t="hero.h1"></h1>
       </div>
     </div>
 
@@ -52,117 +50,61 @@
       <picture>
         <source srcset="/images/portrait.avif" type="image/avif" />
         <source srcset="/images/portrait.webp" type="image/webp" />
-        <img src="/images/portrait.jpeg" alt="Portrait of mine" />
+        <img src="/images/portrait.jpeg" data-attr-t alt-t="profile.picture" />
       </picture>
       <div class="content">
 
         <div>
           <h2>Simon Seyer</h2>
-          <h3>Software Architect & Senior iOS Dev</h3>
-          <p>
-            I'm a passionate iOS developer with a strong focus on user experience,
-            a collaborative sofware architect that makes software engineering scale across big teams
-            and love to apply me experience as product owner and team lead.
-          </p>
-          <p>
-            Having worked in a variety of roles, I
-            see software projects from many angles and can help you to make them successful → <a href="#contact">Hire me
-              as a freelancer</a>
-          </p>
-          <p>
-            Away from the computer I love to do
-            <span class="icontext">
-              <i class="fa-solid fa-paper-plane"></i> Paragliding,
-            </span>
-            <span class="icontext">
-              <i class="fa-solid fa-person-biking"></i> Cycling,
-            </span>
-            <a href="https://blog.comeup.ch/">
-              <i class="fa-solid fa-person-hiking"></i> Travel
-            </a> the world,
-            and capturing it with
-            my
-            <span class="icontext">
-              <i class="fa-solid fa-camera"></i> Camera</b>.
-            </span> After a five month trip through South America I'm now living in the
-            <span class="icontext">
-              <i class="fa-solid fa-mountain"></i> Alps.
-            </span>
-          </p>
+          <h3 data-t="profile.h3"></h3>
+          <p data-t="profile.p1"></p>
+          <p data-t="profile.p2"></p>
+          <p data-t="profile.p3"></p>
         </div>
       </div>
     </div>
 
     <div class="section" id="mindset">
       <div class="content">
-        <h2>Mindset</h2>
-        <p id="disclaimer">
-          I'm looking to work with companies that act
-          <span class="icontext">
-            <i class="fa-solid fa-thumbs-up"></i> Socially
-          </span>
-          responsible and have a positive impact on
-          <span class="icontext">
-            <i class="fa-solid fa-user"></i> People
-          </span>
-          and the
-          <span class="icontext">
-            <i class="fa-solid fa-seedling"></i> Environment.
-          </span>
-
-        </p>
+        <h2 data-t="mindset.h2"></h2>
+        <p id="disclaimer" data-t="mindset.disclaimer"></p>
         <div class="row">
           <div class="subsection">
             <div>
-              <p><b><i>As iOS developer</i></b><br></p>
-              <p>
-                I am passionate about user centric design with privacy in mind.
-              </p>
-              <p>
-                Code needs to be easy to understand, maintainable and well-tested.
-                Most importantly, it needs to work for the users and the business.
-              </p>
+              <p><b><i data-t="mindset.developer.title"></i></b><br></p>
+              <p data-t="mindset.developer.p1"></p>
+              <p data-t="mindset.developer.p2"></p>
             </div>
             <div class="tags">
-              <span>Usability</span>
-              <span>Privacy</span>
-              <span>Offline First</span>
-              <span>Platform Fit</span>
+              <span data-t="mindset.developer.tag1"></span>
+              <span data-t="mindset.developer.tag2"></span>
+              <span data-t="mindset.developer.tag3"></span>
+              <span data-t="mindset.developer.tag4"></span>
             </div>
           </div>
           <div class="subsection">
             <div>
-              <p><b><i>As software architect</i></b><br></p>
-              <p>
-                I bring people, business, product and technology together.
-              </p>
-              <p>
-                In my career, I have learned how important it is to have a shared understanding of what to build, and
-                how.
-                Software architecture plays a key role in that.
-              </p>
+              <p><b><i data-t="mindset.architect.title"></i></b><br></p>
+              <p data-t="mindset.architect.p1"></p>
+              <p data-t="mindset.architect.p2"></p>
             </div>
             <div class="tags">
-              <span>Collaboration</span>
-              <span>Autonomy</span>
-              <span>Managing Complexity</span>
-              <span>Maintainability</span>
+              <span data-t="mindset.architect.tag1"></span>
+              <span data-t="mindset.architect.tag2"></span>
+              <span data-t="mindset.architect.tag3"></span>
+              <span data-t="mindset.architect.tag4"></span>
             </div>
           </div>
           <div class="subsection">
             <div>
-              <p><b><i>As dev lead</i></b><br></p>
-              <p>
-                I serve my team so they are happy, enganged and productive.
-              </p>
-              <p>
-                People are the biggest asset of every company and helping them grow is my motivation.
-              </p>
+              <p><b><i data-t="mindset.lead.title"></i></b><br></p>
+              <p data-t="mindset.lead.p1"></p>
+              <p data-t="mindset.lead.p2"></p>
             </div>
             <div class="tags">
-              <span>Servent Leader</span>
-              <span>Personal Growth</span>
-              <span>Mental Health</span>
+              <span data-t="mindset.lead.tag1"></span>
+              <span data-t="mindset.lead.tag2"></span>
+              <span data-t="mindset.lead.tag3"></span>
             </div>
           </div>
         </div>
@@ -171,171 +113,132 @@
 
     <div class="section" id="skills">
       <div class="content">
-        <h2>Skills</h2>
+        <h2 data-t="skills.h2"></h2>
 
         <div class="list">
           <div class="subsection">
             <i class="fa-brands fa-app-store-ios icon"></i>
             <div>
-              <h3><i class="fa-brands fa-app-store-ios icon mobile"></i> iOS Development</h3>
+              <h3>
+                <i class="fa-brands fa-app-store-ios icon mobile"></i>
+                <span data-t="skills.ios.h3"></span>
+              </h3>
               <div class="tags">
-                <span>Swift</span>
-                <span>UIKit</span>
-                <span>SwiftUI</span>
-                <span>CoreData</span>
-                <span>HealthKit</span>
-                <span>watchOS</span>
-                <span>XCTest</span>
-                <span>API Design</span>
-                <span>Objective C</span>
-                <span>Git</span>
+                <span data-t="skills.ios.tag1"></span>
+                <span data-t="skills.ios.tag2"></span>
+                <span data-t="skills.ios.tag3"></span>
+                <span data-t="skills.ios.tag4"></span>
+                <span data-t="skills.ios.tag5"></span>
+                <span data-t="skills.ios.tag6"></span>
+                <span data-t="skills.ios.tag7"></span>
+                <span data-t="skills.ios.tag8"></span>
+                <span data-t="skills.ios.tag9"></span>
+                <span data-t="skills.ios.tag10"></span>
               </div>
-              <p>
-                With many years of experience, I have a deep knowledge of iOS development practices and frameworks. In
-                collaboration with UX designers I've implemented a variety of UI interfaces, from stock to custom.
-              </p>
-              <p>
-                I've designed and implemented countless features, many deeply integrating with the OS and backend
-                services. I was also regularly involved in building foundational frameworks for internal use.
-              </p>
-
+              <p data-t="skills.ios.p1"></p>
+              <p data-t="skills.ios.p2"></p>
             </div>
           </div>
 
           <div class="subsection">
             <i class="fa-brands fa-bluetooth-b icon"></i>
             <div>
-              <h3><i class="fa-brands fa-bluetooth-b icon mobile"></i>IoT & Bluetooth</h3>
+              <h3>
+                <i class="fa-brands fa-bluetooth-b icon mobile"></i>
+                <span data-t="skills.ble.h3"></span>
+              </h3>
               <div class="tags">
-                <span>CoreBluetooth</span>
-                <span>Binary Protocols</span>
-                <span>Message Bus</span>
-                <span>Firmware Updates</span>
-                <span>Background Connection</span>
+                <span data-t="skills.ble.tag1"></span>
+                <span data-t="skills.ble.tag2"></span>
+                <span data-t="skills.ble.tag3"></span>
+                <span data-t="skills.ble.tag4"></span>
+                <span data-t="skills.ble.tag5"></span>
               </div>
-              <p>
-                In close collaboration with embedded developers, I've designed and implemented multiple binary protocols
-                for Bluetooth communication, transparently transmitting high frequency data via a message bus across
-                multiple platforms (Embedded C, iOS, Android & JavaScript) and enabling transfers of large data like
-                firmware updates.
-              </p>
-              <p>
-                I've also got multiple years of experience working with the iOS CoreBlueooth stack, solving a lot of
-                intracte problems to enable a seamless and fast experience when interacting with IoT devices.
-              </p>
-
+              <p data-t="skills.ble.p1"></p>
+              <p data-t="skills.ble.p2"></p>
             </div>
           </div>
 
           <div class="subsection">
             <i class="fa-solid fa-sitemap icon"></i>
             <div>
-              <h3><i class="fa-solid fa-sitemap icon mobile"></i>Software Architecture</h3>
+              <h3>
+                <i class="fa-solid fa-sitemap icon mobile"></i>
+                <span data-t="skills.architecture.h3"></span>
+              </h3>
               <div class="tags">
-                <span>Modular Architecture</span>
-                <span>Software Platforms</span>
-                <span>SDK Design</span>
-                <span>Domain Specific Languages (DSL)</span>
-                <span>Domain Driven Design</span>
-                <span>System Architecture</span>
+                <span data-t="skills.architecture.tag1"></span>
+                <span data-t="skills.architecture.tag2"></span>
+                <span data-t="skills.architecture.tag3"></span>
+                <span data-t="skills.architecture.tag4"></span>
+                <span data-t="skills.architecture.tag5"></span>
+                <span data-t="skills.architecture.tag6"></span>
               </div>
-              <p>
-                I've designed and implemented app architectures at all scales. From enabling quick iteration in a
-                feature rich iOS App developed by a three-person StartUp team (me included) to collaboratively crafting
-                a modular architecture from scratch that enabled more than a handfull of domain-teams working on an
-                Android and iOS app largely in autonomony.
-              </p>
-              <p>
-                As system architect, I closely worked together with embedded and backend architects and many teams to
-                create a coherent overall architecture. This gave me many insights and allows me to have a very holistic
-                approach to architecture.
-              </p>
-              <p>
-                To improve shared understanding and drive communication protocols as well as privacy measures, I've
-                developed domain specific languages to describe domains that became one of the most central piece of
-                technology at Bosch eBike.
-              </p>
-
+              <p data-t="skills.architecture.p1"></p>
+              <p data-t="skills.architecture.p2"></p>
+              <p data-t="skills.architecture.p3"></p>
             </div>
           </div>
 
           <div class="subsection">
             <i class="fa-solid fa-people-roof icon"></i>
             <div>
-              <h3><i class="fa-solid fa-people-roof icon mobile"></i>Technical Leadership</h3>
+              <h3>
+                <i class="fa-solid fa-people-roof icon mobile"></i>
+                <span data-t="skills.leadership.h3"></span>
+              </h3>
               <div class="tags">
-                <span>Coaching</span>
-                <span>Personal Growth</span>
-                <span>Project Management</span>
-                <span>Scrum</span>
-                <span>Kanban</span>
-                <span>Jira</span>
+                <span data-t="skills.leadership.tag1"></span>
+                <span data-t="skills.leadership.tag2"></span>
+                <span data-t="skills.leadership.tag3"></span>
+                <span data-t="skills.leadership.tag4"></span>
+                <span data-t="skills.leadership.tag5"></span>
+                <span data-t="skills.leadership.tag6"></span>
               </div>
-              <p>
-                As technical product owner of a team of six, I was covering the roles as team lead, technical owner and
-                product manager. I was responsible for setting the agenda, aligning it with other teams, overall product
-                management and the system architecture (in my dual-role as system architect).
-              </p>
-              <p>
-                Most important for me was to have a happy and productive team. For that, we did regular retrospectives
-                and I decided to do personal one on one meetings with all team members every one or two weeks. In
-                collaboration with the disciplinary manager I also ran the yearly goal setting meetings.
-              </p>
-
+              <p data-t="skills.leadership.p1"></p>
+              <p data-t="skills.leadership.p2"></p>
             </div>
           </div>
 
           <div class="subsection">
             <i class="fa-solid fa-gears icon"></i>
             <div>
-              <h3><i class="fa-solid fa-gears icon mobile"></i>CI/CD</h3>
+              <h3>
+                <i class="fa-solid fa-gears icon mobile"></i>
+                <span data-t="skills.automation.h3"></span>
+              </h3>
               <div class="tags">
-                <span>Continues Integration</span>
-                <span>Continues Delivery</span>
-                <span>Jenkins</span>
-                <span>Fastlane</span>
-                <span>Compliance</span>
-                <span>GitHub</span>
-                <span>GitHub Actions</span>
+                <span data-t="skills.automation.tag1"></span>
+                <span data-t="skills.automation.tag2"></span>
+                <span data-t="skills.automation.tag3"></span>
+                <span data-t="skills.automation.tag4"></span>
+                <span data-t="skills.automation.tag5"></span>
+                <span data-t="skills.automation.tag6"></span>
+                <span data-t="skills.automation.tag7"></span>
               </div>
-              <p>
-                From a simple iOS app deployment pipeline to a complex mobile testing and delivery systems including
-                large and modular projects, complex versioning, multiple deployment levels and requirements like open
-                source scanning, I've designed and managed a number of system as developer as well as team lead.
-              </p>
-              <p>
-                This enabled teams to move fast without breaking things, provided quick feedback, enabled regular
-                releases and ensured transparency (for efficiency as well as compliance reasons). At some point dozens
-                of developers relied on the system for daily work.
-              </p>
-
+              <p data-t="skills.automation.p1"></p>
+              <p data-t="skills.automation.p2"></p>
             </div>
           </div>
 
           <div class="subsection">
             <i class="fa-solid fa-lock icon"></i>
             <div>
-              <h3><i class="fa-solid fa-lock icon mobile"></i>Privacy Engineering</h3>
+              <h3>
+                <i class="fa-solid fa-lock icon mobile"></i>
+                <span data-t="skills.privacy.h3"></span>
+              </h3>
               <div class="tags">
-                <span>Privacy by Design</span>
-                <span>Data Minimisation</span>
-                <span>Compliance as Code</span>
-                <span>GDPR</span>
-                <span>Security</span>
-                <span>Authenticity</span>
-                <span>Asymmetric Cryptography</span>
+                <span data-t="skills.privacy.tag1"></span>
+                <span data-t="skills.privacy.tag2"></span>
+                <span data-t="skills.privacy.tag3"></span>
+                <span data-t="skills.privacy.tag4"></span>
+                <span data-t="skills.privacy.tag5"></span>
+                <span data-t="skills.privacy.tag6"></span>
+                <span data-t="skills.privacy.tag7"></span>
               </div>
-              <p>
-                Privacy needs to be by design. In my role as system architect, in constant collaboration with the legal
-                team, I've designed systems that minimised data usage and designed sophisticated ways to make data flows
-                transparent and controllable. This was not only to the benefit of the user but also gave us more legal
-                confidence (e.g. GDPR compliance) and limited manual processes.
-              </p>
-              <p>
-                I also designed multiple high level security mechanisms to control access and ensure authenticity,
-                mostly utilising asymmetric cryptography, that were validated by security experts.
-              </p>
-
+              <p data-t="skills.privacy.p1"></p>
+              <p data-t="skills.privacy.p2"></p>
             </div>
           </div>
         </div>
@@ -344,155 +247,90 @@
 
     <div class="section" id="projects">
       <div class="content">
-        <h2>Projects</h2>
+        <h2 data-t="projects.h2"></h2>
         <div class="list">
           <div class="subsection">
-            <img class="icon" src="/images/flow-app-icon.png" alt="Flow app icon">
-            <div>
-              <h3><img class="icon mobile" src="/images/flow-app-icon.png" alt="Flow app icon">Bosch eBike Digital
-              </h3>
-              <div class="tags">
-                <span><u>Mobile Architect</u></span>
-                <span><u>System Architect</u></span>
-                <span><u>Product Owner</u></span>
-                <span>Modular Architecture</span>
-                <span>Domain Driven Design</span>
-                <span>Data Model</span>
-                <span>Binary Protocols</span>
-                <span>Bluetooth</span>
-                <span>Data Privacy</span>
-                <span>Security</span>
-                <span>Project Management</span>
-                <span>Team Leadership</span>
-              </div>
-              <p>
-                The Flow app is at the center of the <a
-                  href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> generation of Bosch
-                eBike. eBike configuration and maintenance, component firmware updates, lock & alarm, route planning and
-                navigation, ride screen with fitness sensors, activity tracking, 3rd party integrations and more. Well
-                designed and available in many languages, it is very popular with its users.
-              </p>
-              <p>
-                I was able to play a significant role in the development of the Bosch eBike 'smart system' generation
-                from the very beginning. Together with the most experienced software architects at Bosch eBike, I laid
-                the technical foundations for the interaction of the hardware and software components. I was able to use
-                my experience in digital product development, Bluetooth, communication protocols and data models.
-              </p>
-              <p>
-                At the same time, as a system architect at eBike Digital, I had the main technical responsibility for
-                the development of the Flow App for iOS and Android. With developers from three locations, I started the
-                project from scratch, defined the framework for the software development, made important technology
-                decisions collaboratively and created the architectural basis for the parallel development of the app
-                across more than a handful of mobile development teams.
-              </p>
-              <p>
-                In collaboration with the other system architects, I significantly shaped the technological and
-                architectural landscape of Bosch eBike. Especially in data modelling and automated data
-                privacy processes.
-              </p>
-              <p>
-                I then took over a team as technical product owner and team lead. As a mobile
-                platform team, we created an important technical platform to enable the effective product development of
-                the other teams. Just one year later, the team was well recognised and created some of eBike
-                Digital's most important assets.
-              </p>
-              <p>
-                In the team, I was responsible for planning the project and representing it to other teams and
-                management. I established an effective Kanban work mode, which was also adopted by other teams. In
-                weekly coaching sessions with the team members, I ensured their well-being and development and supported
-                official goal-setting meetings.
-              </p>
-              <p>
-                I was also involved in the application process and was on my way to officially taking on leadership
-                responsibilities at Bosch.
-              </p>
-              <p>
-                Find out more about the <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart
-                  system</a> and
-                check out the <a href="https://apps.apple.com/ch/app/ebike-flow/id1559900907" target="_blank"><i
-                    class="fa-brands fa-app-store-ios"></i> iOS</a> and <a
-                  href="https://play.google.com/store/apps/details?id=com.bosch.ebike.onebikeapp" target="_blank"><i
-                    class="fa-brands fa-android"></i> Android</a> app.
-              </p>
-            </div>
-          </div>
-          <div class="subsection">
-            <img class="icon" src="/images/paraquip-app-icon.png" alt="Paraquip app icon">
+            <img class="icon" src="/images/flow-app-icon.png" data-attr-t alt-t="projects.bosch.icon">
             <div>
               <h3>
-                <img class="icon mobile" src="/images/paraquip-app-icon.png" alt="Paraquip app icon">
-                Paraquip App
+                <img class="icon mobile" src="/images/flow-app-icon.png" data-attr-t alt-t="projects.bosch.icon">
+                <span data-t="projects.bosch.h3"></span>
               </h3>
               <div class="tags">
-                <span><u>Solo Project</u></span>
-                <span>Swift</span>
-                <span>SwiftUI</span>
-                <span>CoreData</span>
-                <span>Async/Await</span>
-                <span>Push Notifications</span>
-                <span>Fastlane</span>
-                <span>Open Source</span>
+                <span><u data-t="projects.bosch.tag1"></u></span>
+                <span><u data-t="projects.bosch.tag2"></u></span>
+                <span><u data-t="projects.bosch.tag3"></u></span>
+                <span data-t="projects.bosch.tag4"></span>
+                <span data-t="projects.bosch.tag5"></span>
+                <span data-t="projects.bosch.tag6"></span>
+                <span data-t="projects.bosch.tag7"></span>
+                <span data-t="projects.bosch.tag8"></span>
+                <span data-t="projects.bosch.tag9"></span>
+                <span data-t="projects.bosch.tag10"></span>
+                <span data-t="projects.bosch.tag11"></span>
+                <span data-t="projects.bosch.tag12"></span>
               </div>
-              <p>
-                Paraquip is an iOS app for paragliding pilots to manage their equipment. It tracks the check history and
-                notifies about upcoming checks. For safety and performance, it calculates wing loading.
-              </p>
-              <p>
-                I'm the designer and developer of the app. It's under active development and available on the <a
-                  href="https://apps.apple.com/gb/app/paraquip/id1566910450" target="_blank"><i class="fa-brands fa-app-store-ios"></i>
-                  AppStore</a> and open source on <a href="https://github.com/simonseyer/paraquip" target="_blank"><i
-                    class="fa-brands fa-github"></i> GitHub</a>.
-              </p>
+              <p data-t="projects.bosch.p1"></p>
+              <p data-t="projects.bosch.p2"></p>
+              <p data-t="projects.bosch.p3"></p>
+              <p data-t="projects.bosch.p4"></p>
+              <p data-t="projects.bosch.p5"></p>
+              <p data-t="projects.bosch.p6"></p>
+              <p data-t="projects.bosch.p7"></p>
+              <p data-t="projects.bosch.p8"></p>
+            </div>
+          </div>
+          <div class="subsection">
+            <img class="icon" src="/images/paraquip-app-icon.png" data-attr-t alt-t="projects.paraquip.icon">
+            <div>
+              <h3>
+                <img class="icon mobile" src="/images/paraquip-app-icon.png" data-attr-t alt-t="projects.paraquip.icon">
+                <span data-t="projects.paraquip.h3"></span>
+              </h3>
+              <div class="tags">
+                <span><u data-t="projects.paraquip.tag1"></u></span>
+                <span data-t="projects.paraquip.tag2"></span>
+                <span data-t="projects.paraquip.tag3"></span>
+                <span data-t="projects.paraquip.tag4"></span>
+                <span data-t="projects.paraquip.tag5"></span>
+                <span data-t="projects.paraquip.tag6"></span>
+                <span data-t="projects.paraquip.tag7"></span>
+                <span data-t="projects.paraquip.tag8"></span>
+              </div>
+              <p data-t="projects.paraquip.p1"></p>
+              <p data-t="projects.paraquip.p2"></p>
             </div>
           </div>
 
           <div class="subsection">
-            <img class="icon" src="/images/cobi-app-icon.png" alt="COBI.Bike app icon">
+            <img class="icon" src="/images/cobi-app-icon.png" data-attr-t alt-t="projects.cobi.icon">
             <div>
-              <h3><img class="icon mobile" src="/images/cobi-app-icon.png" alt="COBI.Bike app icon">COBI.Bike
+              <h3>
+                <img class="icon mobile" src="/images/cobi-app-icon.png" data-attr-t alt-t="projects.cobi.icon">
+                <span data-t="projects.cobi.h3"></span>
               </h3>
               <div class="tags">
-                <span><u>iOS Dev</u></span>
-                <span><u>iOS Lead</u></span>
-                <span>Swift</span>
-                <span>Objective-C</span>
-                <span>CoreData</span>
-                <span>UIKit</span>
-                <span>HealthKit</span>
-                <span>Watch App</span>
-                <span>JavaScript SDK</span>
-                <span>Skobbler Map</span>
-                <span>CoreBluetooth</span>
-                <span>MVVM</span>
-                <span>Service Architecture</span>
-                <span>Code Generation</span>
-                <span>Jenkins</span>
-                <span>Fastlane</span>
+                <span><u data-t="projects.cobi.tag1"></u></span>
+                <span><u data-t="projects.cobi.tag2"></u></span>
+                <span data-t="projects.cobi.tag3"></span>
+                <span data-t="projects.cobi.tag4"></span>
+                <span data-t="projects.cobi.tag5"></span>
+                <span data-t="projects.cobi.tag6"></span>
+                <span data-t="projects.cobi.tag7"></span>
+                <span data-t="projects.cobi.tag8"></span>
+                <span data-t="projects.cobi.tag9"></span>
+                <span data-t="projects.cobi.tag10"></span>
+                <span data-t="projects.cobi.tag11"></span>
+                <span data-t="projects.cobi.tag12"></span>
+                <span data-t="projects.cobi.tag13"></span>
+                <span data-t="projects.cobi.tag14"></span>
+                <span data-t="projects.cobi.tag15"></span>
+                <span data-t="projects.cobi.tag16"></span>
               </div>
-              <p>
-                COBI.Bike is turning every bike into a connected one. The Bluetooth enabled bike accessory sits on the
-                handlebar, charges the phone, allows to control the app via thumb controller and interconnects with the
-                eBike system (if available).
-              </p>
-              <p>
-                The heart of COBI are the mobile apps. Riding dashboard, navigation, fitness tracking (including data
-                from BLE sensors & Apple Watch), HealthKit, Strava & Komoot integration, music and call controls, and
-                much more.
-              </p>
-              <p>
-                I've joined the COBI Start Up as student intern and later took over as development iOS lead and
-                architect. I worked on basically all parts of the app, from the highly custom and lovely animated user
-                interface, over mapping and navigation, the many iOS and 3rd party integrations to the extensive
-                Bluetooth communication.
-              </p>
-              <p>
-
-              </p>
-              <p>
-                Find out more on the <a href="https://www.bosch-ebike.com/us/products/cobibike-app" target="_blank">product page</a> and
-                the <a href="https://apps.apple.com/de/app/cobi-bike/id1080933863" target="_blank"><i
-                    class="fa-brands fa-app-store-ios"></i> AppStore</a>.
-              </p>
+              <p data-t="projects.cobi.p1"></p>
+              <p data-t="projects.cobi.p2"></p>
+              <p data-t="projects.cobi.p3"></p>
+              <p data-t="projects.cobi.p4"></p>
             </div>
           </div>
         </div>
@@ -500,24 +338,34 @@
     </div>
     <div class="section" id="contact">
       <div class="content">
-        <h2>Contact Me</h2>
+        <h2 data-t="contact.h2"></h2>
         <div class="row">
           <div class="subsection">
             <h3>Mail</h3>
             <p>
-              <a href="mailto:mail@comeup.ch"><i class="fa-solid fa-envelope"></i> mail@comeup.ch</a>
+              <a href="mailto:mail@comeup.ch">
+                <i class="fa-solid fa-envelope"></i>
+                mail@comeup.ch
+              </a>
             </p>
           </div>
           <div class="subsection">
             <h3>LinkedIn</h3>
             <p>
-              <a href="https://www.linkedin.com/in/simon-seyer-comeup-ch/?locale=en_US" target="_blank"><i class="fa-brands fa-linkedin"></i> Simon Seyer</a>
+              <a href="https://www.linkedin.com/in/simon-seyer-comeup-ch/?locale=en_US" target="_blank">
+                <i class="fa-brands fa-linkedin">
+                </i>
+                Simon Seyer
+              </a>
             </p>
           </div>
           <div class="subsection">
             <h3>GitHub</h3>
             <p>
-              <a href="https://github.com/simonseyer" target="_blank"><i class="fa-brands fa-github"></i> simonseyer</a>
+              <a href="https://github.com/simonseyer" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                simonseyer
+              </a>
             </p>
           </div>
         </div>
@@ -525,7 +373,7 @@
     </div>
   </main>
   <footer>
-    <a href="legal.html">Impressum — Legal Notice</a>
+    <a href="legal.html" data-t="footer.legal"></a>
   </footer>
 </body>
 
