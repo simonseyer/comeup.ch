@@ -8,7 +8,7 @@
     "i18n": {
       "patterns": [
         "src/**/*.html",
-        "src/locale/*"
+        "src/locales/*.*"
       ],
       "extensions": "html,yaml"
     },
@@ -19,7 +19,7 @@
       "extensions": "*",
       "ignore": [
         "src/**/*.html",
-        "src/locale/*"
+        "src/locales/*.*"
       ]
     }
   },
