@@ -1,10 +1,31 @@
 :root {
     font-family: 'Inter', sans-serif;
-    --margin-s: 10px;
-    --margin-m: 20px;
-    --margin-l: 30px;
-    --margin-xl: 40px;
     --accent-color: #106c67;
+    --max-width: 1280px;
+
+    /* Fluid design specs min: 640 max: 1536 */
+    --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem);
+    --space-2xs: clamp(0.56rem, calc(0.52rem + 0.11vw), 0.63rem); /*--margin-s: 10px*/
+    --space-xs: clamp(0.88rem, calc(0.83rem + 0.11vw), 0.94rem); 
+    --space-s: clamp(1.13rem, calc(1.04rem + 0.22vw), 1.25rem); /*--margin-m: 20px*/
+    --space-m: clamp(1.69rem, calc(1.55rem + 0.33vw), 1.88rem); /*--margin-l: 30px*/
+    --space-l: clamp(2.25rem, calc(2.07rem + 0.45vw), 2.50rem); /*--margin-xl: 40px*/
+    --space-xl: clamp(3.38rem, calc(3.11rem + 0.67vw), 3.75rem);
+    --space-2xl: clamp(4.50rem, calc(4.14rem + 0.89vw), 5.00rem);
+    --space-3xl: clamp(6.75rem, calc(6.21rem + 1.34vw), 7.50rem);
+
+    /* Custom transitions */
+    --space-3xs-xl: clamp(0.31rem, calc(-2.14rem + 6.14vw), 3.75rem);
+    --space-s-l: clamp(1.13rem, calc(0.14rem + 2.46vw), 2.50rem); /* 18px - 40px */
+    --space-2xs-m: clamp(0.56rem, calc(-0.37rem + 2.34vw), 1.88rem); /* 9px - 30px */
+
+    /* Font size */
+    
+    --step-0: clamp(1.13rem, calc(1.04rem + 0.22vw), 1.25rem); /* 18.00px - 20.00px */
+    --step-1: clamp(1.35rem, calc(1.20rem + 0.38vw), 1.56rem); /* 21.60px - 25.00px */
+    --step-2: clamp(1.62rem, calc(1.38rem + 0.59vw), 1.95rem); /* 25.92px - 31.25px */
+    --step-3: clamp(1.94rem, calc(1.59rem + 0.89vw), 2.44rem); /* 31.10px - 39.06px */
+   
 }
 
 @supports (font-variation-settings: normal) {
@@ -22,57 +43,69 @@ body {
     background-image: radial-gradient(#888 0.5px, #fff 0.5px);
     background-size: 10px 10px;
     margin: auto;
-    max-width: 950px;
+    max-width: var(--max-width);
+    font-size: var(--step--0);
+}
+
+h1 {
+    font-size: var(--step-3);
+}
+
+h2 {
+    font-size: var(--step-2);
+}
+
+h3 {
+    font-size: var(--step-1);
+    margin-bottom: 0.7em;
 }
 
 p {
-    line-height: 140%;
+    line-height: 1.4;
 }
 
 .section {
     display: flex;
     position: relative;
-    margin: var(--margin-xl) 0;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    background-color: #fff;
     overflow: hidden;
+    margin: var(--space-l) var(--space-3xs-xl);
+    background-color: #fff;
     color: #333;
-}
-
-@media (min-width: 800px) {
-    .section {
-        margin: var(--margin-xl) var(--margin-s);
-        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    border-radius: 20px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
         0 12.5px 10px rgba(0, 0, 0, 0.06),
         0 22.3px 17.9px rgba(0, 0, 0, 0.072),
         0 41.8px 33.4px rgba(0, 0, 0, 0.086),
         0 100px 80px rgba(0, 0, 0, 0.12);
-    }
 }
 
 .section .content {
-    padding: var(--margin-m);
+    padding: var( --space-s-l);
     width: 100%;
 }
 
-@media (min-width: 800px) {
-    .section .content {
-        padding: var(--margin-xl);
+@media (max-width: 768px) {
+    /* reduce wasted space on mobile */
+    .section#hero {
+        margin-top: var(--space-3xs);
+    }
+
+    #hero picture {
         width: 100%;
+        display: flex;
     }
 }
 
 #hero {
     position: relative;
-    height: 400px;
     color: #fff;
+    height: 400px;
 }
 
-picture {
-    display: flex;
-    width: 100%;
+#hero h1 {
+    opacity: 0.85;
+    margin: 0;
 }
 
 #hero img {
@@ -89,13 +122,9 @@ picture {
     backdrop-filter: blur(6px);
 }
 
-#hero h1 {
-    opacity: 0.85;
-    margin: 0;
-}
-
 #profile picture {
-    width: 40%;
+    display: flex;
+    width: 100%;
 }
 
 #profile img {
@@ -103,23 +132,23 @@ picture {
     object-fit: cover;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     #profile {
         flex-direction: column;
     }
 
     #profile picture {
-        height: 400px;
+        max-height: 280px;
         width: 100%;
     }
 }
 
 .row {
     display: flex;
-    gap: var(--margin-m);
+    gap: var(--space-s);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .row {
         flex-direction: column;
     }
@@ -147,24 +176,29 @@ picture {
 @media (hover: hover) {
     .tags span:hover {
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        cursor: default;
     }
+}
+
+.subsection {
+    border-radius: 16px;
+    background-color: #eee;
+    padding: var(--space-s);
+    width: 100%;
+}
+
+.subsection > div {
+    padding: 0 var(--space-s);
 }
 
 .subsection .tags span {
     background-color: white;
 }
 
-h3 {
-    margin-bottom: 0.7em;
+.subsection h3 {
     display: flex;
     align-items: center;
 }
-
-/* #mindset .row>div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
 
 #mindset .row p:first-child {
     margin-bottom: -0.5em;
@@ -172,41 +206,34 @@ h3 {
 
 .icon {
     color: var(--accent-color);
+    margin-right: var(--space-2xs-m);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     .icon.mobile {
         display: none;
     }
 
     .icon {
-        margin-right: var(--margin-l);
-        margin-left: var(--margin-s);
         min-width: 50px; /* required for font-awesome icons */
         width: 50px;
         text-align: center;
         font-size: 2.5em;
         object-fit: scale-down;
+        margin-left: var(--space-s);
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .icon:not(.mobile) {
         display: none;
     }
 
     .icon {
         font-size: 1.3em;
-        margin-right: var(--margin-s);
+        /* margin-right: var(--margin-s); */
         max-width: 40px;
     }
-}
-
-.subsection {
-    border-radius: 16px;
-    background-color: #eee;
-    padding: var(--margin-m);
-    width: 100%;
 }
 
 #skills .subsection, #projects .subsection {
@@ -218,7 +245,7 @@ h3 {
 .list {
     display: flex;
     flex-direction: column;
-    gap: var(--margin-m);
+    gap: var(--space-s);
 }
 
 a:link, a:visited { 
@@ -239,8 +266,8 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     
-    margin-bottom: var(--margin-l);
-    padding: var(--margin-m) var(--margin-s);
+    margin-bottom: var(--space-m);
+    padding: var(--space-s) var(--space-2xs);
     align-items: flex-start;
 }
 
