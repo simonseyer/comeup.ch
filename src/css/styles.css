@@ -20,7 +20,8 @@
     --space-2xs-m: clamp(0.56rem, calc(-0.37rem + 2.34vw), 1.88rem); /* 9px - 30px */
 
     /* Font size */
-    
+    --step--1: clamp(0.94rem, calc(0.89rem + 0.11vw), 1.00rem);
+     /* 15.00px - 16.00px */
     --step-0: clamp(1.13rem, calc(1.04rem + 0.22vw), 1.25rem); /* 18.00px - 20.00px */
     --step-1: clamp(1.35rem, calc(1.20rem + 0.38vw), 1.56rem); /* 21.60px - 25.00px */
     --step-2: clamp(1.62rem, calc(1.38rem + 0.59vw), 1.95rem); /* 25.92px - 31.25px */
@@ -44,7 +45,7 @@ body {
     background-size: 10px 10px;
     margin: auto;
     max-width: var(--max-width);
-    font-size: var(--step--0);
+    font-size: var(--step--1);
 }
 
 h1 {
@@ -89,6 +90,11 @@ p {
     /* reduce wasted space on mobile */
     .section#hero {
         margin-top: var(--space-3xs);
+    }
+
+    .section {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     #hero picture {
@@ -200,8 +206,8 @@ p {
     align-items: center;
 }
 
-#mindset .row p:first-child {
-    margin-bottom: -0.5em;
+#mindset h3 {
+    font-size: var(--step-0);
 }
 
 .icon {
@@ -255,19 +261,21 @@ a:link, a:visited {
 
 a:link, a:visited, .icontext {
     font-weight: 500;
-    white-space: nowrap;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+.icontext {
+    white-space: nowrap;
+}
+
 footer {
     display: flex;
     flex-direction: row-reverse;
-    
     margin-bottom: var(--space-m);
-    padding: var(--space-s) var(--space-2xs);
+    padding: var(--space-l) var(--space-3xs-xl);
     align-items: flex-start;
 }
 
