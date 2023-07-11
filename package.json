@@ -1,7 +1,11 @@
 {
-  "devDependencies": {    
-    "copyfiles": "^2.4.1",   
-    "npm-watch": "^0.11.0",   
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "copyfiles": "^2.4.1",
+    "cssnano": "^6.0.1",
+    "npm-watch": "^0.11.0",
+    "postcss": "^8.4.25",
+    "postcss-cli": "^10.1.0",
     "static-i18n": "^0.2.10"
   },
   "watch": {
@@ -12,6 +16,12 @@
       ],
       "extensions": "html,yaml"
     },
+    "css": {
+      "patterns": [
+        "src/css/*.css"
+      ],
+      "extensions": "css"
+    },
     "copy": {
       "patterns": [
         "src"
@@ -19,14 +29,16 @@
       "extensions": "*",
       "ignore": [
         "src/**/*.html",
-        "src/locales/*.*"
+        "src/locales/*.*",
+        "src/css/*.css"
       ]
     }
   },
   "scripts": {
     "i18n": "static-i18n --locale en --locales en --locales de --output-dir dist --fileFormat yaml src",
+    "css": "postcss --use autoprefixer --use cssnano -o dist/css/styles.css src/css/styles.css",
     "copy": "copyfiles --up 1 --exclude 'src/**/*.html' --exclude 'src/locales/*' 'src/**/*' dist",
     "watch": "npm-watch",
-    "build": "yarn run i18n && yarn run copy"
+    "build": "yarn i18n && yarn css && yarn copy"
   }
 }
