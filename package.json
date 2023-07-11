@@ -37,7 +37,7 @@
   "scripts": {
     "i18n": "static-i18n --locale en --locales en --locales de --output-dir dist --fileFormat yaml src",
     "css": "postcss --use autoprefixer --use cssnano -o dist/css/styles.css src/css/styles.css",
-    "copy": "copyfiles --up 1 --exclude 'src/**/*.html' --exclude 'src/locales/*' 'src/**/*' dist",
+    "copy": "copyfiles --up 1 --exclude 'src/**/*.html' --exclude 'src/locales/*' --exclude 'src/css/*' 'src/**/*' dist",
     "watch": "npm-watch",
     "build": "yarn i18n && yarn css && yarn copy"
   }
