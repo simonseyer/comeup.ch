@@ -222,9 +222,13 @@ legal:
     3778 Schönried<br />
     Switzerland<br />
   p3: >
-    <b>Simon Seyer ComeUp.ch</b><br />
+    <a href="https://be.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-401.169.106" target="_blank"">
+      <i class="fa-solid fa-building"></i>
+      Simon Seyer ComeUp.ch
+    </a><br /> 
     Sole Proprietorship<br />
-    <i>Registration in the commercial register pending</i>
+    Handelsregisteramt des Kantons Bern<br />
+    UID: <code>CHE-401.169.106</code>
   dispute:
     h2: Online Dispute Resolution
     p1: >
