@@ -240,49 +240,34 @@ p {
     margin: 16px 0;
 }
 
+.icon {
+    margin-right: var(--space-2xs);
+}
+
 #skills .icon {
     color: gray;
-    font-size: 1.2em;
-    margin-right: var(--space-2xs);
-    max-width: 40px;
+    font-size: 1.2em;   
 }
 
 #skills .icon.prominent {
     color: var(--accent-color);
 }
 
-@media (min-width: 768px) {
-    #projects .icon {
-        width: 50px;
-    }
-
-    #projects .icon.mobile {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    #projects .icon {
-        width: 30px;
-        margin-right: var(--space-2xs);
-    }
-
-    #projects .icon:not(.mobile) {
-        display: none;
-    }
-}
-
-#projects .subsection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: var(--space-l);
+img.icon {
+    width: 35px;
 }
 
 @media (min-width: 768px) {
     #skills .subsection {
         min-height: 153px;
     }
+}
+
+h3 .secondary {
+    color: #666;
+    font-weight: 300;
+    font-size: var(--step--1);
+    margin-left: var(--space-3xs);
 }
 
 .list {
