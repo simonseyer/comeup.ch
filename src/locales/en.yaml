@@ -20,35 +20,13 @@ mindset:
   h2: Mindset
   disclaimer: >
     I'm looking to work with companies that act <span class="icontext"><i class="fa-solid fa-thumbs-up"></i> Socially</span> responsible and have a positive impact on <span class="icontext"><i class="fa-solid fa-user"></i> People</span> and the <span class="icontext"><i class="fa-solid fa-seedling"></i> Environment.</span>
-  developer:
-    h3: As iOS developer
-    p1: >
-      I am passionate about user-centric design with privacy in mind.
-    p2: >
-      Code needs to be easy to understand, maintainable, and well-tested. Most importantly, it needs to work for the users and the business.
-    tag1: Usability
-    tag2: Privacy
-    tag3: Offline First
-    tag4: Platform Fit
-  architect:
-    h3: As software architect
-    p1: >
-      I bring people, business, product, and technology together.
-    p2: >
-      In my career, I have learned how important it is to have a shared understanding of what to build, and how. Software architecture plays a key role in that.
-    tag1: Collaboration
-    tag2: Autonomy
-    tag3: Managing Complexity
-    tag4: Maintainability
-  lead:
-    h3: As dev lead
-    p1: >
-      I serve my team so they are happy, engaged, and productive.
-    p2: >
-      People are the biggest asset of every company and helping them grow is my motivation.
-    tag1: Servant Leader
-    tag2: Personal Growth
-    tag3: Mental Health
+  as: As
+  developer: >
+    <span class="icontext"><i class="fa-solid fa-laptop-code"></i> Developer</span>, I'm passionate about user-centric design and maintainable code
+  architect: >
+    <span class="icontext"><i class="fa-solid fa-compass-drafting"></i> Architect</span>, I bring people, business, product, and technology together to design holistic solutions
+  lead: >
+     <span class="icontext"><i class="fa-solid fa-hat-wizard"></i> Lead</span>, I act as a servant leader and help people be happy and grow
 skills:
   h2: Skills
   ios:

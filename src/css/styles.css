@@ -1,6 +1,7 @@
 :root {
     font-family: 'Inter', sans-serif;
     --accent-color: #106c67;
+    --text-color: #333;
     --max-width: 1024px;
 
     /* Fluid design specs min: 640 max: 1536 */
@@ -82,7 +83,7 @@ p {
     overflow: hidden;
     margin: var(--space-l) var(--space-3xs-xl);
     background-color: #fff;
-    color: #333;
+    color: var(--text-color);
     border-radius: 20px;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -220,6 +221,23 @@ p {
 
 #mindset h3 {
     font-size: var(--step-0);
+}
+
+#mindset-triple {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-xs);
+    align-items: stretch;
+}
+
+#mindset-triple >:first-child {
+    display: flex;
+    align-items: center;
+} 
+
+#mindset-triple .separator {
+    border-right: 1.5px solid var(--text-color);
+    margin: 16px 0;
 }
 
 #skills .icon {
