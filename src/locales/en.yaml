@@ -15,13 +15,13 @@ profile:
   p2: >
     Having worked in a variety of roles, I see software projects from many angles and can help you to make them successful → <a href="#contact">Hire me as a freelancer</a>.
   p3: >
-    Away from the computer I love to do <span class="icontext"><i class="fa-solid fa-paper-plane"></i> Paragliding</span>, <span class="icontext"><i class="fa-solid fa-person-biking"></i> Cycling</span>, <span class="icontext"><a href="https://blog.comeup.ch/"><i class="fa-solid fa-person-hiking"></i> Travel</a></span> the world, and capturing it with my <span class="icontext"><i class="fa-solid fa-camera"></i> Camera</b></span>. After a five-month trip through South America I'm now living in the <span class="icontext"><i class="fa-solid fa-mountain"></i> Alps.</span>
+    Away from the computer I love to do <span class="icontext"><i class="fa-solid fa-paper-plane"></i> Paragliding</span>, <span class="icontext"><i class="fa-solid fa-person-biking"></i> Cycling</span>, <span class="icontext"><a href="https://blog.comeup.ch/"><i class="fa-solid fa-person-hiking"></i> Travel</a></span> the world, and capturing it with my <span class="icontext"><i class="fa-solid fa-camera"></i> Camera</b></span>. After a five-month trip through South America, I'm now living in the <span class="icontext"><i class="fa-solid fa-mountain"></i> Alps.</span>
 mindset:
   h2: Mindset
   disclaimer: >
     I'm looking to work with companies that act <span class="icontext"><i class="fa-solid fa-thumbs-up"></i> Socially</span> responsible and have a positive impact on <span class="icontext"><i class="fa-solid fa-user"></i> People</span> and the <span class="icontext"><i class="fa-solid fa-seedling"></i> Environment.</span>
   developer:
-    h3: As an iOS developer
+    h3: As iOS developer
     p1: >
       I am passionate about user-centric design with privacy in mind.
     p2: >
@@ -31,7 +31,7 @@ mindset:
     tag3: Offline First
     tag4: Platform Fit
   architect:
-    h3: As a software architect
+    h3: As software architect
     p1: >
       I bring people, business, product, and technology together.
     p2: >
@@ -52,7 +52,7 @@ mindset:
 skills:
   h2: Skills
   ios:
-    h3: iOS Development
+    h3: Senior iOS Developer
     tag1: Swift
     tag2: UIKit
     tag3: SwiftUI
@@ -64,8 +64,10 @@ skills:
     tag9: Objective C
     tag10: Git
     p1: >
-      With many years of experience, I have a deep knowledge of iOS development practices and frameworks. In collaboration with UX designers, I've implemented a variety of UI interfaces, from stock to custom.
+      I have years of professional experience across all aspects of iOS development
     p2: >
+      I have a deep knowledge of iOS development practices and frameworks. In collaboration with UX designers, I've implemented a variety of UI interfaces, from stock to custom.
+    p3: >
       I've designed and implemented countless features, many deeply integrating with the OS and backend services. I was also regularly involved in building foundational frameworks for internal use.
   ble:
     h3: IoT & Bluetooth
@@ -75,11 +77,13 @@ skills:
     tag4: Firmware Updates
     tag5: Background Connection
     p1: >
-      In close collaboration with embedded developers, I've designed and implemented multiple binary protocols for Bluetooth communication, transparently transmitting high-frequency data via a message bus across multiple platforms (Embedded C, iOS, Android & JavaScript) and enabling transfers of large data like firmware updates.
+      I've integrated a variety of BLE devices with mobile platforms, from protocol design to implementation
     p2: >
+      In close collaboration with embedded developers, I've designed and implemented multiple binary protocols for Bluetooth communication, transparently transmitting high-frequency data via a message bus across multiple platforms (Embedded C, iOS, Android & JavaScript) and enabling transfers of large data like firmware updates.
+    p3: >
       I've also got multiple years of experience working with the iOS CoreBlueooth stack, solving a lot of intricate problems to enable a seamless and fast experience when interacting with IoT devices.
   architecture:
-    h3: Software Architecture
+    h3: Software Architect
     tag1: Modular Architecture
     tag2: Software Platforms
     tag3: SDK Design
@@ -87,13 +91,15 @@ skills:
     tag5: Domain Driven Design
     tag6: System Architecture
     p1: >
-      I've designed and implemented app architectures at all scales. From enabling quick iteration in a feature-rich iOS App developed by a three-person StartUp team (me included) to collaboratively crafting a modular architecture from scratch that enabled more than a handful of domain teams to work on an Android and iOS app largely in autonomy.
+      My architecture designs drive innovation from feature-rich StartUp apps to complex multi-team IoT products
     p2: >
-      As a system architect, I closely worked together with embedded and backend architects and many teams to create a coherent overall architecture. This gave me many insights and allows me to have a very holistic approach to architecture.
+      I've designed and implemented app architectures at all scales. From enabling quick iteration in a feature-rich iOS App developed by a three-person StartUp team (me included) to collaboratively crafting a modular architecture from scratch that enabled more than a handful of domain teams to work on an Android and iOS app largely in autonomy.
     p3: >
+      As a system architect, I closely worked together with embedded and backend architects and many teams to create a coherent overall architecture. This gave me many insights and allows me to have a very holistic approach to architecture.
+    p4: >
       To improve shared understanding and drive communication protocols as well as privacy measures, I've developed domain specific languages to describe domains that became one of the most central pieces of technology at Bosch eBike.
   leadership:
-    h3: Technical Leadership
+    h3: Leadership
     tag1: Coaching
     tag2: Personal Growth
     tag3: Project Management
@@ -101,8 +107,10 @@ skills:
     tag5: Kanban
     tag6: Jira
     p1: >
-      As technical product owner of a team of six, I was covering the roles of team lead, technical owner, and product manager. I was responsible for setting the agenda, aligning it with other teams, overall product management, and the system architecture (in my dual role as system architect).
+      As a system architect, technical product owner and team lead I learned how to motivate and grow people
     p2: >
+      As technical product owner of a team of six, I was covering the roles of team lead, technical owner, and project manager. I was responsible for setting the agenda, aligning it with other teams, overall product management, and the system architecture (in my dual role as system architect).
+    p3: >
       Most important for me was to have a happy and productive team. For that, we did regular retrospectives and I decided to do personal one-on-one meetings with all team members every one or two weeks. In collaboration with the disciplinary manager, I also ran the yearly goal-setting meetings.
   automation:
     h3: CI/CD
@@ -114,11 +122,13 @@ skills:
     tag6: GitHub
     tag7: GitHub Actions
     p1: >
-      From a simple iOS app deployment pipeline to complex mobile testing and delivery systems including large and modular projects, complex versioning, multiple deployment levels, and requirements like open-source scanning, I've designed and managed several systems as a developer as well as a team lead.
+      Automating mobile testing and delivery is key for productivity — I've done it across many projects
     p2: >
+      From a simple iOS app deployment pipeline to complex mobile testing and delivery systems including large and modular projects, complex versioning, multiple deployment levels, and requirements like open-source scanning, I've designed and managed several systems as a developer as well as a team lead.
+    p3: >
       This enabled teams to move fast without breaking things, provided quick feedback, enabled regular releases, and ensured transparency (for efficiency as well as compliance reasons). At some point, dozens of developers relied on the system for daily work.
   privacy:
-    h3: Privacy Engineering
+    h3: Privacy
     tag1: Privacy by Design
     tag2: Data Minimisation
     tag3: Compliance as Code
@@ -127,8 +137,10 @@ skills:
     tag6: Authenticity
     tag7: Asymmetric Cryptography
     p1: >
-      Privacy needs to be by design. In my role as a system architect, in constant collaboration with the legal team, I've designed systems that minimized data usage and designed sophisticated ways to make data flow transparent and controllable. This was not only to the benefit of the user but also gave us more legal confidence (e.g. GDPR compliance) and limited manual processes.
+      I know how to design systems that are private and secure without impacting productivity
     p2: >
+      Privacy needs to be by design. In my role as a system architect, in constant collaboration with the legal team, I've designed systems that minimized data usage and designed sophisticated ways to make data flow transparent and controllable. This was not only to the benefit of the user but also gave us more legal confidence (e.g. GDPR compliance) and limited manual processes.
+    p3: >
       I also designed multiple high-level security mechanisms to control access and ensure authenticity, mostly utilizing asymmetric cryptography, that were validated by security experts.
 projects:
   h2: Projects
