@@ -79,7 +79,7 @@ h3 {
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 .section {
@@ -176,7 +176,6 @@ p {
 }
 
 .tags span {
-    line-height: 1.7em;
     white-space: nowrap;
 }
 
