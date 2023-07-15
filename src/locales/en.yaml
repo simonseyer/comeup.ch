@@ -8,27 +8,29 @@ aria:
   expand: Expand
 hero:
   picture: Beautiful picture of mountains rising behind a lake
-  h1: Software Development — Up in the Alps
+  h1: Software Freelancing — Up in the Alps
 profile:
   picture: Portrait of mine
   h3: Software Architect & Senior iOS Dev
   p1: >
-    I'm a passionate iOS developer with a strong focus on user experience, a collaborative software architect that makes software engineering scale across big teams, and love to apply my experience as a product owner and team lead.
+    I'm a collaborative architect for scaled software systems and a passionate iOS developer with a strong focus on user experience.
   p2: >
-    Having worked in a variety of roles, I see software projects from many angles and can help you to make them successful → <a href="#contact">Hire me as a freelancer</a>.
-  p3: >
-    Away from the computer I love to do <span class="icontext"><i class="fa-solid fa-paper-plane"></i> Paragliding</span>, <span class="icontext"><i class="fa-solid fa-person-biking"></i> Cycling</span>, <span class="icontext"><a href="https://blog.comeup.ch/"><i class="fa-solid fa-person-hiking"></i> Travel</a></span> the world, and capturing it with my <span class="icontext"><i class="fa-solid fa-camera"></i> Camera</b></span>. After a five-month trip through South America, I'm now living in the <span class="icontext"><i class="fa-solid fa-mountain"></i> Alps.</span>
+    I worked on the iOS app of the payment StartUp Paij, ran the iOS development at the StartUp COBI.Bike, and was trusted with the mobile architecture at the enterprise Bosch eBike. I also lead a team as product owner and got my own iOS app for paragliders.
+  me:
+    h4: Me Personally
+    p1: >
+      Away from the computer, I love to do paragliding, cycling, <a href="https://blog.comeup.ch/">travel</a> the world, and capture it with my camera. After a five-month trip through South America, I'm now living in the Alps.
 mindset:
   h2: Mindset
   disclaimer: >
-    I'm looking to work with companies that act <span class="icontext"><i class="fa-solid fa-thumbs-up"></i> Socially</span> responsible and have a positive impact on <span class="icontext"><i class="fa-solid fa-user"></i> People</span> and the <span class="icontext"><i class="fa-solid fa-seedling"></i> Environment.</span>
+    I'm looking to work with companies that act socially responsible and have a positive impact on people and the environment.
   as: As
   developer: >
-    <span class="icontext"><i class="fa-solid fa-laptop-code"></i> Developer</span>, I'm passionate about user-centric design and maintainable code.
+    <span class="icontext">developer</span>, I'm passionate about user-centric design and maintainable code.
   architect: >
-    <span class="icontext"><i class="fa-solid fa-compass-drafting"></i> Architect</span>, I bring people, business, product, and technology together to design holistic solutions.
+    <span class="icontext">architect</span>, I bring people, business, product, and technology together to design holistic solutions.
   lead: >
-     <span class="icontext"><i class="fa-solid fa-people-roof"></i> Lead</span>, I act as a servant leader and help people be happy and grow.
+     <span class="icontext">lead</span>, I act as a servant leader and help people grow up to their potential & be happy.
 skills:
   h2: Skills
   ios:

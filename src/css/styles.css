@@ -201,6 +201,7 @@ p {
     flex-direction: row;
     gap: var(--space-xs);
     align-items: stretch;
+    margin-top: var(--space-s);
 }
 
 #mindset-triple>:first-child {
@@ -208,9 +209,14 @@ p {
     align-items: center;
 }
 
+#mindset-triple>:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
 #mindset-triple .separator {
     border-right: 1.5px solid var(--text-color);
-    margin: var(--space-s) 0;
 }
 
 .icon {
