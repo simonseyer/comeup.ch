@@ -215,6 +215,8 @@ projects:
       During my studies, I worked at the mobile payment StartUp Paij. To make UI development more productive, I also developed a library that is available on <a href="https://github.com/simonseyer/PAYFormBuilder" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a> and was starred by 142 developers.
 contact:
   h2: Contact Me
+  listing: >
+    Listed with <a href="https://www.neue-digitale.com/partner" target="_blank">Neue Digitale Partners</a>
 footer:
   legal: Impressum — Legal Notice
 legal:
