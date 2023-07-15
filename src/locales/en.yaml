@@ -4,6 +4,8 @@ meta:
   title: ComeUp.ch Consulting
   description: >
     I'm a software architect and senior iOS developer with broad experience in software engineering. Hire me as a freelancer so I can support your project!
+aria:
+  expand: Expand
 hero:
   picture: Beautiful picture of mountains rising behind a lake
   h1: Software Development — Up in the Alps
@@ -26,7 +28,7 @@ mindset:
   architect: >
     <span class="icontext"><i class="fa-solid fa-compass-drafting"></i> Architect</span>, I bring people, business, product, and technology together to design holistic solutions.
   lead: >
-     <span class="icontext"><i class="fa-solid fa-hat-wizard"></i> Lead</span>, I act as a servant leader and help people be happy and grow.
+     <span class="icontext"><i class="fa-solid fa-people-roof"></i> Lead</span>, I act as a servant leader and help people be happy and grow.
 skills:
   h2: Skills
   ios:
