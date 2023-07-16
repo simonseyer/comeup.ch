@@ -19,10 +19,29 @@ for (const button of document.querySelectorAll(".expandable")) {
 }
 
 function toggleExpansion(element) {
-    const section = element.closest(".subsection")
+    const toggledSection = element.closest(".subsection")
     const icon = element.querySelector("i")
     const expand = icon.classList.contains(iconExpand)
 
+    for (const section of document.querySelectorAll(".subsection")) {
+        if (section == toggledSection) {
+            expandSection(section, expand)
+        } else {
+            expandSection(section, false)
+        }        
+    }
+
+    if (expand) {
+        toggledSection.scrollIntoView({ behavior: "smooth" })
+    }
+}
+
+function expandSection(section, expand) {
+    const icon = section.querySelector("button i")
+    if (icon == null) {
+        return
+    }
+    
     for (const element of section.querySelectorAll(".collapsable")) {
         if (expand) {
             element.classList.remove("collapsed")
