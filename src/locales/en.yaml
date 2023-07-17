@@ -13,24 +13,26 @@ profile:
   picture: Portrait of mine
   h3: Software Architect & Senior iOS Dev
   p1: >
-    I'm a collaborative architect for scaling software systems and a passionate iOS developer with a strong focus on user experience.
+    I'm an architect of large software systems, a passionate iOS developer with a focus on user experience, and like to lead by example.
   p2: >
-    I've worked as an iOS dev at a payment Startup, ran the iOS development at COBI.Bike, and headed mobile architecture at the enterprise Bosch eBike. I've also lead a team as product owner and got my own iOS app for paragliders.
+    I started as an iOS dev at a mobile payment Startup, ran the iOS development at COBI.Bike, and was the responsible mobile architect at Bosch eBike. I've led a team as a product owner and develop my own iOS app.
+  p3: >
+    Now I support companies as a freelancer.
   me:
-    h4: Me Personally
+    h4: Traveller & Paragliding Pilot
     p1: >
       Away from the computer, I love to do paragliding, cycling, <a href="https://blog.comeup.ch/">travel</a> the world, and capture it with my camera. After a five-month trip through South America, I'm now living in the Alps.
 mindset:
   h2: Mindset
   disclaimer: >
-    I'm looking to work with companies that act socially responsible and have a positive impact on people and the environment.
+    I'm looking forward to working with companies that act socially responsible and have a positive impact on people and the environment.
   as: As
   developer: >
-    <span class="icontext">developer</span>, I'm passionate about user-centric design and maintainable code.
+    <b>developer</b>, I'm passionate about user-centric design and maintainable code
   architect: >
-    <span class="icontext">architect</span>, I bring people, business, product, and technology together to design holistic solutions.
+    <b>architect</b>, I work collaboratively to design solutions that match business, product, people, and technology
   lead: >
-     <span class="icontext">lead</span>, I act as a servant leader and help people grow up to their potential & be happy.
+     <b>lead</b>, I act as a servant leader and help people grow up to their potential & be happy
 skills:
   h2: Skills
   ios:
@@ -46,9 +48,9 @@ skills:
     tag9: Objective C
     tag10: Git
     p1: >
-      I have years of professional experience across all aspects of iOS development.
+      I have years of professional experience across many aspects of iOS development.
     p2: >
-      I have a deep knowledge of iOS development practices and frameworks. In collaboration with UX designers, I've implemented a variety of UI interfaces, from stock to custom.
+      Over the years, I gathered a deep knowledge of iOS development practices and frameworks. In collaboration with UX designers, I've implemented a variety of UI interfaces, from stock to custom.
     p3: >
       I've designed and implemented countless features, many deeply integrating with the OS and backend services. I was also regularly involved in building foundational frameworks for internal use.
   ble:
@@ -59,11 +61,11 @@ skills:
     tag4: Firmware Updates
     tag5: Background Connection
     p1: >
-      I've integrated a variety of BLE devices with mobile platforms, from protocol design to implementation.
+      Via Bluetooth, I've integrated a variety of IoT devices with mobile platforms, from protocol design to implementation.
     p2: >
-      In close collaboration with embedded developers, I've designed and implemented multiple binary protocols for Bluetooth communication, transparently transmitting high-frequency data via a message bus across multiple platforms (Embedded C, iOS, Android & JavaScript) and enabling transfers of large data like firmware updates.
+      Together with embedded developers, I've designed and implemented multiple binary protocols for Bluetooth communication. From transmitting high-frequency data via a message bus (across embedded C, iOS, Android & JavaScript) to transfers of large firmware updates.
     p3: >
-      I've also got multiple years of experience working with the iOS CoreBlueooth stack, solving a lot of intricate problems to enable a seamless and fast experience when interacting with IoT devices.
+      Over multiple years I've built up experience with the iOS CoreBlueooth stack, solving a lot of intricate problems to enable a seamless and fast user experience.
   architecture:
     h3: Software Architect
     tag1: Modular Architecture
@@ -73,13 +75,13 @@ skills:
     tag5: Domain Driven Design
     tag6: System Architecture
     p1: >
-      My architecture designs drive innovation from feature-rich Startup apps to complex multi-team IoT products.
+      I've designed and implemented architectures from feature-rich Startup apps to complex multi-team IoT products.
     p2: >
-      I've designed and implemented app architectures at all scales. From enabling quick iteration in a feature-rich iOS App developed by a three-person Startup team (me included) to collaboratively crafting a modular architecture from scratch that enabled more than a handful of domain teams to work on an Android and iOS app largely in autonomy.
+      I've designed and implemented app architectures at different scales. At the StartUp companies, enabling quick iteration was a major goal. At Bosch eBike, though, more than a handful of domain teams had to work on the mobile apps autonomously. In collaboration with the devs, I deployed a modular architecture to achieve that.
     p3: >
-      As a system architect, I closely worked together with embedded and backend architects and many teams to create a coherent overall architecture. This gave me many insights and allows me to have a very holistic approach to architecture.
+      As a system architect, I closely worked together with embedded and backend architects to create a coherent overarching architecture. Together with the leadership team, I also had the opportunity to shape the digital strategy of Bosch eBike from a technological perspective.
     p4: >
-      To improve shared understanding and drive communication protocols as well as privacy measures, I've developed domain specific languages to describe domains that became one of the most central pieces of technology at Bosch eBike.
+      Through this, I gathered many insights enabling me to have a very holistic perspective and approach to architecture.
   leadership:
     h3: Leadership
     tag1: Coaching
@@ -89,26 +91,22 @@ skills:
     tag5: Kanban
     tag6: Jira
     p1: >
-      As a system architect, technical product owner and team lead I learned how to motivate and grow people.
+      Leading and motivating people thrives me and I gathered a lot of experience in my various roles.
     p2: >
-      As technical product owner of a team of six, I was covering the roles of team lead, technical owner, and project manager. I was responsible for setting the agenda, aligning it with other teams, overall product management, and the system architecture (in my dual role as system architect).
+      As technical product owner of a team of six, I was covering the roles of team lead, technical owner, and project manager. I was responsible for setting the agenda and aligning it with other teams, overall product management, and system architecture (in my dual role as system architect).
     p3: >
-      Most important for me was to have a happy and productive team. For that, we did regular retrospectives and I decided to do personal one-on-one meetings with all team members every one or two weeks. In collaboration with the disciplinary manager, I also ran the yearly goal-setting meetings.
+      Most important for me was to have a happy and productive team. For that, we did regular retrospectives and I set up bi-weekly personal one-on-one meetings with all team members. Together with the disciplinary manager, I also ran the yearly goal-setting meetings.
   automation:
     h3: CI/CD
-    tag1: Continues Integration
-    tag2: Continues Delivery
-    tag3: Jenkins
-    tag4: Fastlane
-    tag5: Compliance
-    tag6: GitHub
-    tag7: GitHub Actions
+    tag1: Jenkins
+    tag2: Fastlane
+    tag3: Compliance
+    tag4: GitHub
+    tag5: GitHub Actions
     p1: >
-      Automating mobile testing and delivery is key for productivity — I've done it across many projects.
+      I enjoy making development more productive with automation and could apply that in my projects.
     p2: >
-      From a simple iOS app deployment pipeline to complex mobile testing and delivery systems including large and modular projects, complex versioning, multiple deployment levels, and requirements like open-source scanning, I've designed and managed several systems as a developer as well as a team lead.
-    p3: >
-      This enabled teams to move fast without breaking things, provided quick feedback, enabled regular releases, and ensured transparency (for efficiency as well as compliance reasons). At some point, dozens of developers relied on the system for daily work.
+      I've designed and managed several mobile CI/CD systems as a developer as well as a team lead. They handled large and modular projects with extensive test suites and covered advanced topics like multi-target deployments, complex versioning, and open-source scanning.
   privacy:
     h3: Privacy
     tag1: Privacy by Design
@@ -119,11 +117,11 @@ skills:
     tag6: Authenticity
     tag7: Asymmetric Cryptography
     p1: >
-      I know how to design systems that are private and secure without impacting productivity.
+      Privacy is important to me and I acquired expertise in how to design private, secure & compliant systems.
     p2: >
-      Privacy needs to be by design. In my role as a system architect, in constant collaboration with the legal team, I've designed systems that minimized data usage and designed sophisticated ways to make data flow transparent and controllable. This was not only to the benefit of the user but also gave us more legal confidence (e.g. GDPR compliance) and limited manual processes.
+      Privacy needs to be part of every software design from the start. In my role as a system architect, in collaboration with the legal team, I've designed systems that minimized data usage and made data flows transparent and controllable. This was not only to the benefit of the user but also provided legal confidence (GDPR compliance) and reduced manual processes.
     p3: >
-      I also designed multiple high-level security mechanisms to control access and ensure authenticity, mostly utilizing asymmetric cryptography, that were validated by security experts.
+      I've also designed multiple high-level security mechanisms that were validated by security experts to control access and ensure authenticity.
 projects:
   h2: Projects
   bosch:
@@ -143,21 +141,21 @@ projects:
     tag11: Project Management
     tag12: Team Leadership
     summary: >
-      As responsible mobile and system architect for eBike Digital, I was trusted with setting up and evolving the <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> digital platform. As product owner, I also lead a team that built a technical foundation (SDK) for internal use. I coached my team members and was on the way to a leadership position.
+      In my role as mobile and system architect for eBike Digital, I set up and evolved the <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> digital platform. Later, I also became product owner and lead a team building an internal foundation layer (SDK) for the <a href="https://www.bosch-ebike.com/us/products/ebike-flow-app" target="_blank">Flow app</a>. In these roles, I gathered a lot of leadership experience and was on the way to a formal lead position.
     p1: >
-      The Flow app is at the center of the <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> generation of Bosch eBike (market leader for eBike systems). eBike configuration and maintenance, component firmware updates, lock & alarm, route planning and navigation, ride screen with fitness sensors, activity tracking, 3rd party integrations, and more. Well-designed and available in many languages, it is very popular with its users.
+      The Flow app is at the center of the <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> generation of Bosch eBike. eBike configuration and maintenance, component firmware updates, lock & alarm, route planning and navigation, ride screen with fitness sensors, activity tracking, 3rd party integrations, and more. It is available in many languages and well received on the app stores.
     p2: >
-      I was able to play a significant role in the development of the Bosch eBike  <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> generation from the very beginning. Together with the most experienced software architects at Bosch eBike, I laid the technical foundations for the interaction of the hardware and software components. I was able to use my experience in digital product development, Bluetooth, communication protocols, and data models.
+      I was able to play a significant role in the development of the Bosch eBike  <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> generation from the very beginning. Together with the most experienced software architects at Bosch eBike, I laid the technical foundations for the interaction of the hardware and software components. I was able to use my experience in digital product development, BLE, communication protocols, and data models.
     p3: >
-      At the same time, as a system architect at eBike Digital, I had the main technical responsibility for the development of the Flow App for iOS and Android. With developers from three locations, I started the project from scratch, defined the framework for the software development, made important technology decisions collaboratively, and created the architectural basis for the parallel development of the app across more than a handful of mobile development teams.
+      At the same time, as a system architect at eBike Digital, I had the main technical responsibility for the development of the Flow App for iOS and Android. With developers from three locations, I started the project from scratch, made important technology decisions collaboratively, and created the architectural basis for the simultaneous development across more than a handful of mobile dev teams.
     p4: >
-      In collaboration with the other system architects, I significantly shaped the technological and architectural landscape of Bosch eBike. Especially in data modeling and automated data privacy processes.
+      In collaboration with the other system architects, I significantly shaped the technological and architectural landscape of Bosch eBike over the years. Especially in data modeling and automated data privacy processes.
     p5: >
-      I then took over a team as technical product owner and team lead. As a mobile platform team, we created an important technical platform to enable the effective product development of the other teams. Just one year later, the team was well recognized and created some of eBike Digital's most important assets.
+      After the initial set-up phase, I also took over a team as technical product owner and team lead. As a mobile platform team, we created important foundational components to enable the effective product development of the other teams. Just one year later, the team was well recognized and created some of eBike Digital's most important assets.
     p6: >
-      In the team, I was responsible for planning the project and representing it to other teams and management. I established an effective Kanban work mode, which was also adopted by other teams. In weekly coaching sessions with the team members, I ensured their well-being and development and supported official goal-setting meetings.
+      In the team, I was responsible for planning the project and representing it to other teams and management. I established an effective Kanban work mode, which was also adopted by other teams. In bi-weekly coaching sessions with the team members, I ensured their well-being and development and supported official goal-setting meetings.
     p7: >
-      I was also involved in the application process and was on my way to officially take on leadership responsibilities at Bosch.
+      I was also involved in the recruiting process and was participating in a leadership program to take on a formal leadership role at Bosch.
     p8: >
       Find out more about the <a href="https://www.bosch-ebike.com/us/products/the-smart-system" target="_blank">smart system</a> and check out the <a href="https://apps.apple.com/ch/app/ebike-flow/id1559900907" target="_blank"><i class="fa-brands fa-app-store-ios"></i> iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.bosch.ebike.onebikeapp" target="_blank"><i class="fa-brands fa-android"></i> Android</a> app.
   paraquip:
@@ -173,11 +171,11 @@ projects:
     tag7: Fastlane
     tag8: Open Source
     summary: >
-      <a href="https://apps.apple.com/gb/app/paraquip/id1566910450" target="_blank">Paraquip</a> is my own iOS app for paragliding pilots. It always utilizes the latest technologies and is available <a href="https://github.com/simonseyer/paraquip" target="_blank">open source</a>.
+      <a href="https://apps.apple.com/gb/app/paraquip/id1566910450" target="_blank">Paraquip</a> is my own <a href="https://github.com/simonseyer/paraquip" target="_blank">open source</a> iOS app for paragliding pilots. I work on it in my spare time to solve a problem for me, craft my own product, and learn about new technologies.
     p1: >
-      Paraquip is an iOS app for paragliding pilots to manage their equipment. It tracks the check history and notifies about upcoming checks. For safety and performance, it calculates wing loading.
+      Paraquip is an iOS app for paragliding pilots to manage their equipment. It tracks the history of checks and notifies about upcoming ones (mandatory for safety and insurance reasons). It also calculates wing loading for safety and performance purposes.
     p2: >
-      I'm the designer and developer of the app. It's under active development and available on the <a href="https://apps.apple.com/gb/app/paraquip/id1566910450" target="_blank"><i class="fa-brands fa-app-store-ios"></i> AppStore</a> and open source on <a href="https://github.com/simonseyer/paraquip" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.
+      I'm the designer and developer of the app. It's under active development and available on the <a class="icontext" href="https://apps.apple.com/gb/app/paraquip/id1566910450" target="_blank"><i class="fa-brands fa-app-store-ios"></i> AppStore</a> and open source on <a class="icontext" href="https://github.com/simonseyer/paraquip" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.
   cobi:
     h3: COBI.Bike
     timeframe: 2015 - 2018
@@ -200,13 +198,13 @@ projects:
     tag16: Jenkins
     tag17: Fastlane
     summary: >
-      The <a href="https://www.bosch-ebike.com/us/products/cobibike-app" target="_blank">COBI.Bike</a> Startup kicked off the digitalization of the bicycle. As a developer and later iOS lead I architected and implemented major parts of the iOS app. I also wrapped up my <span class="icontext"><i class="fa-solid fa-graduation-cap"></i> Bachelor</span> with a thesis about utilizing code generation for BLE communication.
+      The <a href="https://www.bosch-ebike.com/us/products/cobibike-app" target="_blank">COBI.Bike</a> Startup transformed bicycles into smart bikes. As developer and later iOS lead I implemented major parts of the iOS app and evolved its architecture. At COBI, I also wrote my thesis about utilizing code generation for BLE communication wrapping up my <span class="icontext"><i class="fa-solid fa-graduation-cap"></i> Bachelor</span>.
     p1: >
-      COBI.Bike is turning every bike into a connected one. The Bluetooth-enabled bike accessory sits on the handlebar, charges the phone, gives you control over the app via thumb controller, and interconnects with the eBike system (if available).
+      COBI.Bike is turning every bike into a connected one. The Bluetooth-enabled bike accessory sits on the handlebar, charges the phone, gives you control over the app via thumb controller, and interconnects with the eBike systems. The heart of COBI are the mobile apps. Riding dashboard, navigation, fitness tracking (with BLE sensors & Apple Watch), HealthKit, Strava & Komoot integration, music and call controls, and much more.
     p2: >
-      The heart of COBI are the mobile apps. Riding dashboard, navigation, fitness tracking (including data from BLE sensors & Apple Watch), HealthKit, Strava & Komoot integration, music and call controls, and much more.
+      I joined the COBI Start Up as a student intern and later took over as iOS lead and architect. I worked on all parts of the app. From the lovely animated user interface, over maps and routing, the many iOS and 3rd party integrations to the extensive Bluetooth communication.
     p3: >
-      I joined the COBI Start Up as a student intern and later took over as development iOS lead and architect. I worked on all parts of the app, from the highly custom and lovely animated user interface, over mapping and navigation, the many iOS and 3rd party integrations to the extensive Bluetooth communication (including a model-based cross-platform code generation solution — the topic of my Bachelor thesis).
+      I very much enjoyed the autonomy typical for an early-stage StartUp. I used it to constantly iterate on the iOS app architecture, tools, and practices. My bachelor thesis very much simplified Bluetooth communication by modeling the transmitted data and generating code for all involved platforms.
     p4: >
       Find out more on the <a href="https://www.bosch-ebike.com/us/products/cobibike-app" target="_blank">product page</a> and the <a href="https://apps.apple.com/de/app/cobi-bike/id1080933863" target="_blank"><i class="fa-brands fa-app-store-ios"></i> AppStore</a>.
   paij:
@@ -214,7 +212,7 @@ projects:
     timeframe: 2013 - 2015
     icon: Paij app icon
     summary: >
-      During my studies, I worked at the mobile payment Startup Paij. To make UI development more productive, I also developed a library that is available on <a href="https://github.com/simonseyer/PAYFormBuilder" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a> and was starred by 142 developers.
+      During my studies, I worked at the mobile payment Startup Paij. To make UI development more productive, I also developed a library that is available on <a href="https://github.com/simonseyer/PAYFormBuilder" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.
 contact:
   h2: Contact Me
   listing: >
