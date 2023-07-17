@@ -9,13 +9,12 @@ for (const button of document.querySelectorAll("button.expand")) {
     };
 }
 
-for (const button of document.querySelectorAll(".collapsable")) {
-    button.classList.add("collapsed")
-}
-
-
-for (const button of document.querySelectorAll(".expandable")) {
-    button.classList.remove("collapsed")
+for (const section of document.querySelectorAll(".subsection")) {
+    if (section.id == window.location.hash.substring(1)) {
+        expandSection(section, true)
+    } else {
+        expandSection(section, false)
+    }        
 }
 
 function toggleExpansion(element) {
@@ -33,6 +32,7 @@ function toggleExpansion(element) {
 
     if (expand) {
         toggledSection.scrollIntoView({ behavior: "smooth" })
+        window.location.hash = toggledSection.id
     }
 }
 
