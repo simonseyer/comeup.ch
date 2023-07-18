@@ -39,7 +39,7 @@ function toggleExpansion(element) {
     if (isSafari) {
         const parentSection = toggledSection.closest(".section")
         parentSection.style.display = 'none'
-        setTimeout(function(){
+        setTimeout(() => {
             parentSection.style.display = 'block'
         }, 0)
     }
