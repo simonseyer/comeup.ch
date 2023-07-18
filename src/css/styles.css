@@ -410,7 +410,7 @@ footer a.button {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --accent-color: #1bada6;
+        --accent-color: #1cb6af;
         --primary-background-color: #393838;
         --secondary-background-color: #4c4c4c;
         --tertiary-background-color: #353535;
