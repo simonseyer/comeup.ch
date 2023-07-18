@@ -34,6 +34,15 @@ function toggleExpansion(element) {
         toggledSection.scrollIntoView({ behavior: "smooth" })
         window.location.hash = toggledSection.id
     }
+
+    const isSafari = window.safari !== undefined
+    if (isSafari) {
+        const parentSection = toggledSection.closest(".section")
+        parentSection.style.display = 'none'
+        setTimeout(function(){
+            parentSection.style.display = 'block'
+        }, 0)
+    }
 }
 
 function expandSection(section, expand) {
