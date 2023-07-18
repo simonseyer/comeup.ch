@@ -24,9 +24,9 @@ jobs:
       - name: Deploy 🚀
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.ftp_server }}
+          server: ${{ secrets.FTP_SERVER }}
           port: 5544
-          username: ${{ secrets.ftp_user }}
-          password: ${{ secrets.ftp_password }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: comeup.ch/public_html/
