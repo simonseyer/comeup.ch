@@ -5,6 +5,7 @@
     --secondary-background-color: #eee;
     --tertiary-background-color: #fafafa;
     --text-color: #333;
+    --secondary-text-color: #777;
     --max-width: 1024px;
 
     /* Fluid design specs min: 640 max: 1536 */
@@ -232,7 +233,7 @@ p {
 }
 
 #skills .icon {
-    color: gray;
+    color: var(--secondary-text-color);
     font-size: 1.2em;
 }
 
@@ -251,7 +252,7 @@ img.icon {
 }
 
 h3 .secondary {
-    color: #666;
+    color: var(--secondary-text-color);
     font-weight: 300;
     font-size: var(--step--1);
     margin-left: var(--space-3xs);
@@ -404,6 +405,34 @@ footer a.button {
         text-decoration: none;
         background-color: var(--accent-color);
         color: #f5f5f5;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: #1bada6;
+        --primary-background-color: #393838;
+        --secondary-background-color: #4c4c4c;
+        --tertiary-background-color: #353535;
+        --text-color: #e5e5e5;
+        --secondary-text-color: #e5e5e5;
+    }
+
+    body {
+        background-image: unset;
+        background-color: #202020;
+    }
+
+    .section {
+        box-shadow: unset;
+    }
+
+    #hero img {
+        opacity: .8;
+    }
+
+    #profile img {
+        opacity: .9;
     }
 }
 
