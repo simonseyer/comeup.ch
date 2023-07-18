@@ -33,6 +33,8 @@ function toggleExpansion(element) {
     if (expand) {
         toggledSection.scrollIntoView({ behavior: "smooth" })
         window.location.hash = toggledSection.id
+    } else {
+        history.replaceState(null, '', ' ');
     }
 
     const isSafari = window.safari !== undefined
