@@ -22,11 +22,12 @@ jobs:
           yarn build
 
       - name: Deploy 🚀
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           port: 5544
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: comeup.ch/public_html/
+          local_path: './dist/*'
+          remote_path: '/comeup.ch/public_html'
+          sftp_only: true
