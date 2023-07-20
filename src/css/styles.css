@@ -210,7 +210,8 @@ p {
     flex-direction: row;
     gap: var(--space-xs);
     align-items: stretch;
-    margin-top: var(--space-s);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 #mindset-triple>:first-child {
