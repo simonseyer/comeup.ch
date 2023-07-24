@@ -234,12 +234,8 @@ p {
 }
 
 #skills .icon {
-    color: var(--secondary-text-color);
-    font-size: 1.2em;
-}
-
-#skills .icon.prominent {
     color: var(--accent-color);
+    font-size: 1.2em;
 }
 
 img.icon {
