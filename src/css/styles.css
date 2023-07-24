@@ -313,8 +313,8 @@ a.button {
 
 button {
     position: absolute;
-    right: var(--space-s);
-    top: var(--space-s);
+    right: var(--space-2xs);
+    top: var(--space-2xs);
     display: none;
     border: none;
     cursor: pointer;
