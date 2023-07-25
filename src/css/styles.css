@@ -3,10 +3,12 @@
     --accent-color: #106c67;
     --primary-background-color: #fff;
     --secondary-background-color: #eee;
-    --tertiary-background-color: #fafafa;
+    --tertiary-background-color: #e5e5e5;
+    --control-background-color: #fafafa;
     --text-color: #333;
     --secondary-text-color: #666;
     --max-width: 1024px;
+    --subsection-border-radius: 16px;
 
     /* Fluid design specs min: 640 max: 1536 */
     --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem);
@@ -190,15 +192,29 @@ p {
 
 .subsection {
     position: relative;
-    border-radius: 16px;
+    border-radius: var(--subsection-border-radius);
     background-color: var(--secondary-background-color);
-    padding: var(--space-3xs) var(--space-l);
     scroll-margin: var(--space-xs);
+}
+
+.subsection:not(:has(.front)) {
+    padding: var(--space-3xs) var(--space-l);
 }
 
 .subsection h3 {
     display: flex;
     align-items: center;
+}
+
+.subsection .front {
+    padding: var(--space-3xs) var(--space-l);
+}
+
+.subsection .back {
+    padding: var(--space-xs) var(--space-l) var(--space-3xs) var(--space-l);
+    border-bottom-left-radius: var(--subsection-border-radius);
+    border-bottom-right-radius: var(--subsection-border-radius);
+    background-color: var(--tertiary-background-color);
 }
 
 #mindset h3 {
@@ -305,7 +321,7 @@ a:hover {
 button,
 .tags span,
 a.button {
-    background-color: var(--tertiary-background-color);
+    background-color: var(--control-background-color);
     padding: var(--space-3xs) var(--space-2xs);
     border-radius: 8px;
     color: var(--accent-color);
@@ -419,7 +435,8 @@ footer a.button {
         --accent-color: #1cb6af;
         --primary-background-color: #393838;
         --secondary-background-color: #464646;
-        --tertiary-background-color: #353535;
+        --tertiary-background-color: #4f4e4e;
+        --control-background-color: #353535;
         --text-color: #e5e5e5;
         --secondary-text-color: #e5e5e5;
     }
