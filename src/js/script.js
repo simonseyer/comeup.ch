@@ -32,7 +32,7 @@ function toggleExpansion(element) {
 
     if (expand) {
         toggledSection.scrollIntoView({ behavior: "smooth" })
-        window.location.hash = toggledSection.id
+        history.replaceState(null, '', '#' + toggledSection.id);
     } else {
         history.replaceState(null, '', ' ');
     }
