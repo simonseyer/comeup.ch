@@ -31,7 +31,7 @@ function toggleExpansion(element) {
     }
 
     if (expand) {
-        toggledSection.scrollIntoView({ behavior: "smooth" })
+        toggledSection.scrollIntoView()
         history.replaceState(null, '', '#' + toggledSection.id);
     } else {
         history.replaceState(null, '', ' ');
