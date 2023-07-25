@@ -215,6 +215,9 @@ projects:
       During my studies, I worked at the mobile payment Startup Paij. To make UI development more productive, I also developed a library that is available on <a href="https://github.com/simonseyer/PAYFormBuilder" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>.
 contact:
   h2: Contact Me
+  language: German, English
+  location: Schönried, Switzerland
+  workstyle: Primarily remote <i>(on-site meetings possible in Central Europe)</i>
   listing: >
     Listed with <a href="https://www.neue-digitale.com/partner" target="_blank">Neue Digitale Partners</a>
 footer:
