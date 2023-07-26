@@ -349,13 +349,19 @@ button.active {
     white-space: nowrap;
 }
 
-#contact p {
+#infos {
     line-height: 1.9;
 }
 
-#contact p i {
+#infos i {
     min-width: 25px;
     text-align: center;
+}
+
+#infos > div {
+    display: flex;
+    gap: var(--space-3xs);
+    align-items: baseline;
 }
 
 #contact .row {
