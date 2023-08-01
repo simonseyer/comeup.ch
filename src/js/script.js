@@ -31,12 +31,13 @@ function toggleExpansion(element) {
     }
 
     if (expand) {
-        toggledSection.scrollIntoView()
-        history.replaceState(null, '', '#' + toggledSection.id);
+        window.location.hash = toggledSection.id
     } else {
+        // Removes hash from URL without changing the scroll position
         history.replaceState(null, '', ' ');
     }
 
+    // Workaround for Safari bug where the section is not redrawn correctly
     const isSafari = window.safari !== undefined
     if (isSafari) {
         const parentSection = toggledSection.closest(".section")
@@ -60,15 +61,7 @@ function expandSection(section, expand) {
             element.classList.add("collapsed")
         }
     }
-
-    for (const element of section.querySelectorAll(".expandable")) {
-        if (expand) {
-            element.classList.add("collapsed")
-        } else {
-            element.classList.remove("collapsed")
-        }
-    }
-
+    
     if (expand) {
         icon.classList.remove(iconExpand)
         icon.classList.add(iconCollapse)
