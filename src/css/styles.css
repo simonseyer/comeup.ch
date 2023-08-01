@@ -494,7 +494,8 @@ footer a.button {
     }
 
     #mindset,
-    #skills {
+    #skills,
+    #projects {
         page-break-after: always;
     }
 
