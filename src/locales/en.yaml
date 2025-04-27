@@ -17,7 +17,7 @@ profile:
   p2: >
     I started as an iOS dev at a mobile payment Startup, ran the iOS development at COBI.Bike, and was the responsible mobile architect at Bosch eBike. I've led a team as product owner and develop my own iOS app.
   p3: >
-    Now I'm happy to support <i>you</i> as a freelancer.
+    Right now I'm working at <a href="https://www.zuehlke.com/en" target="_blank">Zühlke</a> as Lead Mobile Architect.
   me:
     h4: Traveller & Paragliding Pilot
     p1: >
@@ -126,6 +126,17 @@ skills:
       I've also designed multiple high-level security mechanisms that were validated by security experts to control access and ensure authenticity.
 projects:
   h2: Projects
+  zuhlke:
+    h3: Zühlke
+    timeframe: 2023 - today
+    icon: Zühlke logo
+    tag1: Lead Mobile Architect
+    tag2: iOS Dev
+    tag3: Android Dev
+    tag4: System Architect
+    tag5: People Lead
+    summary: >
+      As a lead mobile architect at <a href="https://www.zuehlke.com/en" target="_blank">Zühlke</a>, I work on various projects and help customers to build their mobile products. As a people lead, I also support the growth of my team members and help them to reach their potential.
   bosch:
     h3: Bosch eBike
     timeframe: 2018 - 2022
@@ -235,14 +246,6 @@ legal:
     Hubelstrasse 6<br />
     3778 Schönried<br />
     Switzerland<br />
-  p3: >
-    <a href="https://be.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-401.169.106" target="_blank"">
-      <i class="fa-solid fa-building"></i>
-      Simon Seyer ComeUp.ch
-    </a><br /> 
-    Sole Proprietorship<br />
-    Handelsregisteramt des Kantons Bern<br />
-    UID: <code>CHE-401.169.106</code>
   dispute:
     h2: Online Dispute Resolution
     p1: >

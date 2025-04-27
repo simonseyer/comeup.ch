@@ -249,6 +249,10 @@ p {
     margin-right: var(--space-2xs);
 }
 
+.rect-icon {
+    padding: 1px;
+}
+
 #skills .icon {
     color: var(--accent-color);
     font-size: 1.2em;
